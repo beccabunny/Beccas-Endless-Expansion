@@ -356,3 +356,80 @@ ship "Solifuge" "Solifuge (Tracker)"
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
 		"Hyperdrive"
+
+ship "Centipede" "Centipede (Afterburner)"
+	outfits
+		"Pulse Cannon" 2
+		"Bullfrog Anti-Missile" 3
+		"Boulder Reactor"
+		"Hai Fissure Batteries"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling" 5
+		"Luxury Accommodations"
+		"Quantum Keystone"
+		"Pulse Rifle" 24
+		`"Biroo" Atomic Thruster`
+		`"Biroo" Atomic Steering`
+		`"Babreii" Afterburner`
+		Hyperdrive
+
+ship "Lightning Bug" "Lightning Bug (Afterburner)"
+	outfits
+		"Ion Cannon"
+		"Bullfrog Anti-Missile" 2
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling"
+		"Quantum Keystone"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		`"Basrem" Atomic Steering`
+		`"Babreii" Afterburner`
+		"Fuel Pod"
+		"Hyperdrive"
+
+ship "Grasshopper" "Grasshopper (Afterburner)"
+	outfits
+		"Pulse Cannon"
+		"Pebble Core"
+		"Hai Chasm Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling"
+		"Quantum Keystone"
+		"Fuel Pod" 3
+		`"Babreii" Afterburner`
+		"Pulse Rifle"
+		`"Basrem" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		Hyperdrive
+
+fleet "Small Hai"
+	add variant 2
+		"Lightning Bug (Afterburner)" 2
+	add variant 
+		"Lightning Bug (Afterburner)" 3
+	add variant 
+		"Lightning Bug (Afterburner)"
+		"Grasshopper" 2
+	add variant 
+		"Lightning Bug (Afterburner)"
+		"Grasshopper (Afterburner)"
+
+fleet "Large Hai"
+	add variant 2
+		"Centipede (Afterburner)"
+		"Lightning Bug (Afterburner)" 2
+	add variant 
+		"Centipede (Afterburner)" 2
+		"Lightning Bug (Afterburner)"
+	add variant
+		"Centipede (Afterburner)"
+		"Lightning Bug (Afterburner)" 2
+		"Grasshopper" 3
+	add variant
+		"Centipede (Afterburner)"
+		"Lightning Bug (Afterburner)" 2
+		"Grasshopper (Afterburner)" 
+		"Grasshopper"
