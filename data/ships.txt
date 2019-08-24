@@ -149,7 +149,8 @@ mission "Battle For Sich'ka'ara Ends"
 	destination Earth
 	on offer
 		event "more unfettered stuff"
-		fail
+	to fail
+		has "event: more unfettered stuff"
 
 event "more unfettered stuff"
 	outfitter "Hai Unfettered"
@@ -433,3 +434,98 @@ fleet "Large Hai"
 		"Lightning Bug (Afterburner)" 2
 		"Grasshopper (Afterburner)" 
 		"Grasshopper"
+
+ship "Modified Shield Beetle"
+	sprite "ship/hai modified shield beetle"
+	thumbnail "thumbnail/hai shield beetle"
+	attributes
+		category "Heavy Warship"
+		"cost" 25400000
+		"shields" 42000
+		"hull" 10600
+		"required crew" 59
+		"bunks" 78
+		"mass" 720
+		"drag" 9.1
+		"heat dissipation" .35
+		"fuel capacity" 700
+		"cargo space" 134
+		"outfit space" 843
+		"weapon capacity" 354
+		"engine capacity" 150
+		weapon
+			"blast radius" 500
+			"shield damage" 4500
+			"hull damage" 2200
+			"hit force" 3600
+	outfits
+		"Ion Cannon" 2
+		"Ionic Blaster" 6
+		"Ionic Turret" 2
+		"Chameleon Anti-Missile"
+		"Hai Corundum Regenerator"
+		"Hai Diamond Regenerator"
+		"Hai Squall Cooling"
+		"Hai Zephyr Cooling"
+		"Hyperdrive"
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Hai Chasm Batteries"
+		"Hai Fissure Batteries"
+		"Hai Ravine Batteries"
+		`"Babreii" Afterburner`
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Pulse Rifle" 61
+	engine -42 134.5
+	engine 42 134.5
+	gun -21.5 -93
+	gun -34 -71
+	gun -47.5 -31
+	gun -60.5 -7.5
+	gun 21.5 -93
+	gun 34 -71
+	gun 47.5 -31
+	gun 60.5 -7.5
+	turret -54 74.5
+	turret 0 15
+	turret 54 74.5
+	leak "leak" 35 45
+	leak "flame" 60 95
+	leak "big leak" 50 45
+	explode "tiny explosion" 60
+	explode "small explosion" 51
+	explode "medium explosion" 54
+	explode "large explosion" 53
+	explode "huge explosion" 22
+	"final explode" "final explosion large"
+	description "This ship has been modified by the Unfettered Hai, after that they succesfully invaded Wanderer space. Their primary intention was to increase the weapon space to install more Ion Cannons, but since they were unable to do much they focused on the Solifuge development and, after it was completed, tried to increase the other attributes instead with good results at the cost of manuevrability and heat control."
+
+mission "Wanderers Ap'arak 3: Unfettered"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: the eye opens"
+	source
+		attributes "wanderer"
+	destination Earth
+	on offer
+		event "even more unfettered stuff"
+	to fail
+		has "event: wanderers: the eye opens"
+
+event "even more unfettered stuff"
+	fleet "Large Unfettered"
+		add variant 2
+			"Modified Shield Beetle" 2
+		add variant 2
+			"Modified Shield Beetle"
+			"Solifuge (Ionic)"
+			"Violin Spider" 3
+			"Violin Spider (Pulse)" 3
+		add variant 
+			"Modified Shield Beetle" 2
+			"Shield Beetle (Ionic)"
+		add variant 2
+			"Modified Shield Beetle"
+			"Shield Beetle (Pulse)"
