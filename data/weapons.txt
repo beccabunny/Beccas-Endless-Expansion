@@ -24,7 +24,7 @@ outfit "Accurate Gatling Blaster"
 		"submunition" "gbullet"
 		"cluster"
 		"hit effect" "bullet impact"
-	description `Many decades ago, Kraz Cybernetics started a project to upgrade the ancient Gatling Gun design with newer designing technics. While they actually could increase its accuracy and make it maintain substained fire for a longer time, their weapon, the so-called Accurate Gatling Blaster, also requires more energy and more time to completely cool down, not to mention the higher cost and the bullets capacity reduced to little more than half. Still, this weapon became popular in more recent times, among the captains who possess a small ship and want to defend themselves from the anarchists who may try to destroy them in a small ship such as the Fury or the Sparrow.`
+	description `Many decades ago, Kraz Cybernetics started a project to upgrade the ancient Gatling Gun design with newer designing technics. While they actually could increase its accuracy and make it maintain substained fire for a longer time, their weapon, the so-called Accurate Gatling Blaster, also requires more energy and more time to completely cool down, not to mention the higher cost and the bullets capacity reduced to little more than half.`
 
 outfit "Ionic Blaster"
 	category "Guns"
@@ -45,12 +45,12 @@ outfit "Ionic Blaster"
 		"reload" 60
 		"firing energy" 145
 		"firing force" 20
-		"firing heat" 180
+		"firing heat" 210
 		"hit force" 90
 		"shield damage" 125
 		"hull damage" 32
 		"ion damage" 1.6
-	description "Since the Unfettered started their perennial war against the other Hai faction, they tried to determinate which weapon they should produce the most. They preferred to focus on the Ion Cannon, but the largest downside was its huge size; because of that, it was impossible to mount many of them on a Shield Beetle. After dozens of years of research, a team finally developed a less bulky version, small enough to be installed in large numbers and more focused on normal damage to be also effective once the target's power sources became ineffective."
+	description "Since the Unfettered started their perennial war against the rest of the Hai, they tried to determinate which weapon they should produce the most. They preferred to focus on the Ion Cannon, but the largest downside was its huge size; because of that, it was impossible to mount many of them on a Shield Beetle. After dozens of years of research, a team finally developed a less bulky version, small enough to be installed in large numbers and more focused on normal damage to be also effective once the target's power sources became ineffective."
 
 outfit "Ionic Turret"
 	category "Turrets"
@@ -73,7 +73,7 @@ outfit "Ionic Turret"
 		"reload" 60
 		"firing energy" 290
 		"firing force" 40
-		"firing heat" 360
+		"firing heat" 420
 		"hit force" 180
 		"shield damage" 250
 		"hull damage" 64

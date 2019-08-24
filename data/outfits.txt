@@ -1,0 +1,17 @@
+outfit "Hai Squall Cooling"
+	category "Systems"
+	cost 93500
+	thumbnail "outfit/liquid nitrogen hai"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 41
+	description "With the escalation of their war against the Wanderers, the Unfettered understood that the Sunbeams were causing them problems partly due to the heat their ships were subject to. The Squall cooling system was their answer, larger than their previus coolings but also much more efficent."
+
+outfit "Hai Zephyr Cooling"
+	category "Systems"
+	cost 38000
+	thumbnail "outfit/water cooling hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 21
+	description "After the introduction of the Ionic Blaster and the consequential need of more reactors to power them, the Williwaw cooling wasn't anymore always enough anymore. They developed this cooling outfit to avoid overheating when they want to use many Ionic Blasters at once."
