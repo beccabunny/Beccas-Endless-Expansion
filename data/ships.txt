@@ -1,4 +1,4 @@
-ship "Shield Beetle" "Shield Bettle (Ionic)"
+ship "Shield Beetle" "Shield Beetle (Ionic)"
 	outfits
 		"Hai Williwaw Cooling"
 		Hyperdrive
@@ -14,7 +14,7 @@ ship "Shield Beetle" "Shield Bettle (Ionic)"
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
 
-ship "Shield Beetle" "Shield Bettle (Jump, Ionic)"
+ship "Shield Beetle" "Shield Beetle (Jump, Ionic)"
 	outfits
 		"Hai Williwaw Cooling"
 		"Jump Drive"
@@ -512,7 +512,7 @@ mission "Wanderers Ap'arak 3: Unfettered"
 	on offer
 		event "even more unfettered stuff"
 	to fail
-		has "event: wanderers: the eye opens"
+		has "even more unfettered stuff"
 
 event "even more unfettered stuff"
 	fleet "Large Unfettered"
