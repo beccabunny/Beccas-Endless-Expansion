@@ -1,0 +1,2 @@
+planet Darkcloak
+	outfitter "Hai Unfettered"
