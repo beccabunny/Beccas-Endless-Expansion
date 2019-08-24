@@ -15,3 +15,16 @@ outfit "Hai Zephyr Cooling"
 	"outfit space" -14
 	"cooling" 21
 	description "After the introduction of the Ionic Blaster and the consequential need of more reactors to power them, the Williwaw cooling wasn't anymore always enough anymore. They developed this cooling outfit to avoid overheating when they want to use many Ionic Blasters at once."
+
+outfit `"Babreii" Afterburner`
+	category "Engines"
+	"cost" 130000
+	thumbnail "outfit/afterburner hai"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"afterburner thrust" 19.0
+	"afterburner fuel" .28
+	"afterburner heat" 7.2
+	"afterburner effect" "afterburner"
+	description "Considered nothing more than a relic from the past among many Hai, this afterburner is one of their most ancient designs and that has received very small modifications in the last centuries. Only a small part of the Hai still use them."
