@@ -56,7 +56,7 @@ outfit "Ionic Turret"
 	category "Turrets"
 	cost 1260000
 	thumbnail "outfit/ionic turret"
-	"mass" 47
+	"mass" 49
 	"outfit space" -49
 	"weapon capacity" -49
 	"turret mounts" -1

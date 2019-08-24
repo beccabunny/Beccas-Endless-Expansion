@@ -1,0 +1,125 @@
+ship "Shield Beetle" "Shield Bettle (Ionic)"
+	outfits
+		"Hai Williwaw Cooling"
+		Hyperdrive
+		"Hai Diamond Regenerator"
+		"Boulder Reactor" 2
+		"Quantum Keystone"
+		"Hai Ravine Batteries"
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Pulse Turret" 2
+		"Pulse Cannon"
+		"Ionic Blaster" 7
+		"Hai Zephyr Cooling"
+		"Ionic Turret" 2
+
+ship "Shield Beetle" "Shield Bettle (Jump, Ionic)"
+	outfits
+		"Hai Williwaw Cooling"
+		"Jump Drive"
+		"Hai Diamond Regenerator"
+		"Boulder Reactor" 2
+		"Quantum Keystone"
+		"Hai Ravine Batteries"
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Pulse Turret" 2
+		"Pulse Cannon"
+		"Ionic Blaster" 7
+		"Hai Zephyr Cooling"
+		"Ionic Turret" 2
+
+ship "Water Bug" "Water Bug (Ionic)"
+	outfits
+		"Ionic Blaster" 2
+		"Ionic Turret"
+		"Chameleon Anti-Missile" 2
+		"Boulder Reactor"
+		"Hai Fissure Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling"
+		"Quantum Keystone"
+		"Pulse Rifle" 8
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		Hyperdrive
+
+ship "Water Bug" "Water Bug (Jump, Ionic)"
+	outfits
+		"Ionic Blaster" 2
+		"Ionic Turret"
+		"Chameleon Anti-Missile" 2
+		"Boulder Reactor"
+		"Hai Fissure Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling"
+		"Quantum Keystone"
+		"Pulse Rifle" 8
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		"Jump Drive"
+
+
+ship "Lightning Bug" "Lightning Bug (Ionic)"
+	outfits
+		"Ionic Blaster"
+		"Bullfrog Anti-Missile"
+		"Ionic Turret"
+		"Boulder Reactor"
+		"Hai Chasm Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Zephyr Cooling"
+		"Quantum Keystone"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		"Hyperdrive"
+
+fleet "Unfettered Raid"
+	add variant
+		variant
+			"Shield Beetle (Jump, Ionic)" 3
+		variant
+			"Shield Beetle (Jump, Ionic)" 2
+			"Shield Beetle (Jump, Tracker)" 1
+
+fleet "Unfettered Tribute"
+	add variant
+		variant
+			"Water Bug (Jump, Ionic)"
+
+fleet "Small Unfettered"
+	add variant
+		variant
+			"Lightning Bug (Ionic)"
+		variant 3
+			"Lightning Bug (Ionic)" 2
+
+fleet "Large Unfettered"
+	add variant
+		variant 1
+			"Lightning Bug (Ionic)"
+			"Shield Beetle (Ionic)"
+		variant 2
+			"Shield Beetle (Ionic)" 2
+		variant 2
+			"Shield Beetle (Pulse)"
+			"Shield Beetle (Ionic)"
+		variant 2
+			"Shield Beetle"
+			"Shield Beetle (Ionic)"
+		variant 2
+			"Shield Beetle (Tracker)"
+			"Shield Beetle (Ionic)"
+		variant 1
+			"Lightning Bug (Ionic)" 3
+			"Lightning Bug (Pulse)" 2
+		variant 1
+			"Lightning Bug (Ionic)" 4
+			"Lightning Bug (Pulse)" 1
+		variant
+			"Shield Beetle (Ionic)" 2
+			"Lightning Bug (Ionic)"
+		variant
+			"Shield Beetle (Tracker)" 
+			"Lightning Bug (Ionic)" 3
