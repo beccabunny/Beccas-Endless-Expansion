@@ -123,3 +123,17 @@ fleet "Large Unfettered"
 		variant
 			"Shield Beetle (Tracker)" 
 			"Lightning Bug (Ionic)" 3
+
+mission "Battle For Sich'ka'ara Ends"
+	landing
+	to offer
+		has: "Wanderers Defend Sich'ka'ara: done"
+	source
+		government: "Wanderer"
+	destination Earth
+	on offer
+		event "more unfettered stuff"
+
+event "more unfettered stuff"
+	outfitter "Hai Unfettered"
+		"Hai Squall Cooling"
