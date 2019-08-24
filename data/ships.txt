@@ -43,7 +43,7 @@ ship "Water Bug" "Water Bug (Ionic)"
 		"Pulse Rifle" 8
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
-		Hyperdrive
+		"Hyperdrive"
 
 ship "Water Bug" "Water Bug (Jump, Ionic)"
 	outfits
@@ -75,11 +75,29 @@ ship "Lightning Bug" "Lightning Bug (Ionic)"
 		`"Benga" Atomic Steering`
 		"Hyperdrive"
 
+ship "Solifuge" "Solifuge (Ionic)"
+	outfits
+		"Ionic Blaster" 4
+		"Pulse Cannon"
+		"Ionic Turret" 4
+		"Bullfrog Anti-Missile" 2
+		"Chameleon Anti-Missile"
+		"Boulder Reactor" 2
+		"Hai Fissure Batteries"
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Squall Cooling"
+		"Hai Zephyr Cooling"
+		"Pulse Rifle" 62
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Hyperdrive"
+
 fleet "Unfettered Raid"
 	add variant
-		variant
 			"Shield Beetle (Jump, Ionic)" 3
-		variant
+	add variant
 			"Shield Beetle (Jump, Ionic)" 2
 			"Shield Beetle (Jump, Tracker)" 1
 
@@ -90,50 +108,251 @@ fleet "Unfettered Tribute"
 
 fleet "Small Unfettered"
 	add variant
-		variant
 			"Lightning Bug (Ionic)"
-		variant 3
+	add variant 3
 			"Lightning Bug (Ionic)" 2
 
 fleet "Large Unfettered"
-	add variant
-		variant 1
+	add variant 1
 			"Lightning Bug (Ionic)"
 			"Shield Beetle (Ionic)"
-		variant 2
+	add variant 2
 			"Shield Beetle (Ionic)" 2
-		variant 2
+	add variant 2
 			"Shield Beetle (Pulse)"
 			"Shield Beetle (Ionic)"
-		variant 2
+	add variant 2
 			"Shield Beetle"
 			"Shield Beetle (Ionic)"
-		variant 2
+	add variant 2
 			"Shield Beetle (Tracker)"
 			"Shield Beetle (Ionic)"
-		variant 1
+	add variant 1
 			"Lightning Bug (Ionic)" 3
 			"Lightning Bug (Pulse)" 2
-		variant 1
+	add variant 1
 			"Lightning Bug (Ionic)" 4
 			"Lightning Bug (Pulse)" 1
-		variant
+	add variant
 			"Shield Beetle (Ionic)" 2
 			"Lightning Bug (Ionic)"
-		variant
+	add variant
 			"Shield Beetle (Tracker)" 
 			"Lightning Bug (Ionic)" 3
 
 mission "Battle For Sich'ka'ara Ends"
 	landing
 	to offer
-		has: "Wanderers Defend Sich'ka'ara: done"
+		has "event: battle for sich'ka'ara ends"
 	source
-		government: "Wanderer"
+		attributes "wanderer"
 	destination Earth
 	on offer
 		event "more unfettered stuff"
+		fail
 
 event "more unfettered stuff"
 	outfitter "Hai Unfettered"
 		"Hai Squall Cooling"
+	fleet "Large Unfettered"
+		add variant 3
+			"Solifuge (Ionic)"
+			"Violin Spider" 3
+			"Violin Spider (Pulse)" 3
+		add variant 1
+			"Solifuge (Ionic)"
+			"Solifuge (Tracker)"
+			"Violin Spider" 6
+			"Violin Spider (Pulse)" 6
+		add variant 2
+			"Shield Beetle (Ionic)"
+			"Solifuge"
+			"Violin Spider" 3
+			"Violin Spider (Pulse)" 3
+		add variant 1
+			"Shield Beetle (Ionic)"
+			"Solifuge (Ionic)"
+			"Violin Spider" 2
+			"Violin Spider (Pulse)" 4
+		add variant 2
+			"Solifuge (Pulse)"
+			"Violin Spider" 4
+			"Violin Spider (Pulse)" 2
+			"Lightning Bug (Ionic)" 2
+
+ship "Solifuge"
+	sprite "ship/hai solifuge"
+	thumbnail "thumbnail/hai solifuge"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Unfettered Militia"
+		"cost" 22800000
+		"shields" 37800
+		"hull" 11000
+		"required crew" 62
+		"bunks" 118
+		"mass" 925
+		"drag" 15.4
+		"heat dissipation" .42
+		"fuel capacity" 600
+		"cargo space" 142
+		"outfit space" 828
+		"weapon capacity" 342
+		"engine capacity" 166
+		weapon
+			"blast radius" 450
+			"shield damage" 4500
+			"hull damage" 2250
+			"hit force" 3500
+	outfits
+		"Hai Tracker Pod"
+		"Hai Tracker" 56
+		"Ion Cannon" 4
+		"Pulse Turret" 2
+		"Chameleon Anti-Missile"
+		"Bullfrog Anti-Missile" 4
+		"Boulder Reactor" 2
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Corundum Regenerator"
+		"Hai Squall Cooling"
+		"Hai Williwaw Cooling"	
+		"Quantum Keystone"
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Hyperdrive"
+			
+	engine -28 135.5
+	engine 28 135.5
+	gun 0 -140 "Hai Tracker Pod"
+	gun -11.5 -138.5 "Ion Cannon"
+	gun 11.5 -138.5 "Ion Cannon"
+	gun -9.5 -101 "Ion Cannon"
+	gun 9.5 -101 "Ion Cannon"
+	turret 0 -109.5 "Chameleon Anti-Missile"
+	turret 54.5 -48.5 "Bullfrog Anti-Missile"
+	turret -54.5 -48.5 "Bullfrog Anti-Missile"
+	turret 55 1 "Pulse Turret"
+	turret -55 1 "Pulse Turret"
+	turret 54.5 50.5 "Bullfrog Anti-Missile"
+	turret -54.5 50.5 "Bullfrog Anti-Missile"
+	fighter -51.5 -71 under
+	fighter 51.5 -71 under
+	fighter -58.5 2 under
+	fighter 58.5 2 under
+	fighter -51.5 76 under
+	fighter 51.5 76 under
+	leak "leak" 40 50
+	leak "flame" 60 70
+	leak "big leak" 70 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `Impressed by the Alpha's "Giftbringer", the Unfettered endeavored to build their own fighter carrier to take more advantage of their supply of jump drives.`
+
+ship "Solifuge" "Solifuge (Jump)"
+	outfits
+		"Hai Tracker Pod"
+		"Hai Tracker" 56
+		"Ion Cannon" 4
+		"Pulse Turret" 2
+		"Chameleon Anti-Missile"
+		"Bullfrog Anti-Missile" 4
+		"Boulder Reactor" 2
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Corundum Regenerator"
+		"Hai Squall Cooling"
+		"Hai Williwaw Cooling"
+		"Pulse Rifle" 86
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Jump Drive"
+
+ship "Solifuge" "Solifuge (Jump, Pulse)"
+	outfits
+		"Ion Cannon" 2
+		"Pulse Cannon" 3
+		"Pulse Turret" 5
+		"Bullfrog Anti-Missile" 2
+		"Boulder Reactor" 2
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Diamond Regenerator"
+		"Hai Squall Cooling" 2
+		"Pulse Rifle" 71
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Jump Drive"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+
+ship "Solifuge" "Solifuge (Jump, Tracker)"
+	outfits
+		"Hai Tracker Pod" 5
+		"Hai Tracker" 280
+		"Pulse Turret" 4
+		"Chameleon Anti-Missile"
+		"Bullfrog Anti-Missile" 2
+		"Boulder Reactor" 2
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator" 2
+		"Hai Diamond Regenerator" 2
+		"Hai Squall Cooling"
+		"Hai Williwaw Cooling"
+		"Pulse Rifle" 68
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Jump Drive"
+
+ship "Solifuge" "Solifuge (Pulse)"
+	outfits
+		"Ion Cannon" 2
+		"Pulse Cannon" 3
+		"Pulse Turret" 5
+		"Bullfrog Anti-Missile" 2
+		"Boulder Reactor" 2
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Diamond Regenerator"
+		"Hai Squall Cooling" 2
+		"Pulse Rifle" 62
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Hyperdrive"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+
+ship "Solifuge" "Solifuge (Tracker)"
+	outfits
+		"Hai Tracker Pod" 5
+		"Hai Tracker" 280
+		"Pulse Turret" 4
+		"Chameleon Anti-Missile"
+		"Bullfrog Anti-Missile" 2
+		"Boulder Reactor" 2
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator" 2
+		"Hai Diamond Regenerator" 2
+		"Hai Squall Cooling"
+		"Hai Williwaw Cooling"
+		"Pulse Rifle" 59
+		`"Benga" Atomic Steering`
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		"Hyperdrive"
