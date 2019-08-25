@@ -140,47 +140,6 @@ fleet "Large Unfettered"
 			"Shield Beetle (Tracker)" 
 			"Lightning Bug (Ionic)" 3
 
-mission "Battle For Sich'ka'ara Ends"
-	landing
-	to offer
-		has "event: battle for sich'ka'ara ends"
-	source
-		attributes "wanderer"
-	destination Earth
-	on offer
-		event "more unfettered stuff"
-	to fail
-		has "event: more unfettered stuff"
-
-event "more unfettered stuff"
-	outfitter "Hai Unfettered"
-		"Hai Squall Cooling"
-	fleet "Large Unfettered"
-		add variant 3
-			"Solifuge (Ionic)"
-			"Violin Spider" 3
-			"Violin Spider (Pulse)" 3
-		add variant 1
-			"Solifuge (Ionic)"
-			"Solifuge (Tracker)"
-			"Violin Spider" 6
-			"Violin Spider (Pulse)" 6
-		add variant 2
-			"Shield Beetle (Ionic)"
-			"Solifuge"
-			"Violin Spider" 3
-			"Violin Spider (Pulse)" 3
-		add variant 1
-			"Shield Beetle (Ionic)"
-			"Solifuge (Ionic)"
-			"Violin Spider" 2
-			"Violin Spider (Pulse)" 4
-		add variant 2
-			"Solifuge (Pulse)"
-			"Violin Spider" 4
-			"Violin Spider (Pulse)" 2
-			"Lightning Bug (Ionic)" 2
-
 ship "Solifuge"
 	sprite "ship/hai solifuge"
 	thumbnail "thumbnail/hai solifuge"
@@ -440,6 +399,8 @@ ship "Modified Shield Beetle"
 	thumbnail "thumbnail/hai shield beetle"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Unfettered Militia"
 		"cost" 25400000
 		"shields" 42000
 		"hull" 10600
@@ -500,32 +461,3 @@ ship "Modified Shield Beetle"
 	explode "huge explosion" 22
 	"final explode" "final explosion large"
 	description "This ship has been modified by the Unfettered Hai, after that they succesfully invaded Wanderer space. Their primary intention was to increase the weapon space to install more Ion Cannons, but since they were unable to do much they focused on the Solifuge development and, after it was completed, tried to increase the other attributes instead with good results at the cost of manuevrability and heat control."
-
-mission "Wanderers Ap'arak 3: Unfettered"
-	landing
-	invisible
-	to offer
-		has "event: wanderers: the eye opens"
-	source
-		attributes "wanderer"
-	destination Earth
-	on offer
-		event "even more unfettered stuff"
-	to fail
-		has "even more unfettered stuff"
-
-event "even more unfettered stuff"
-	fleet "Large Unfettered"
-		add variant 2
-			"Modified Shield Beetle" 2
-		add variant 2
-			"Modified Shield Beetle"
-			"Solifuge (Ionic)"
-			"Violin Spider" 3
-			"Violin Spider (Pulse)" 3
-		add variant 
-			"Modified Shield Beetle" 2
-			"Shield Beetle (Ionic)"
-		add variant 2
-			"Modified Shield Beetle"
-			"Shield Beetle (Pulse)"

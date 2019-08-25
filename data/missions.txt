@@ -1,0 +1,145 @@
+mission "Battle For Sich'ka'ara Ends"
+	landing
+	to offer
+		has "event: battle for sich'ka'ara ends"
+	source
+		attributes "wanderer"
+	destination Earth
+	on offer
+		event "more unfettered stuff"
+	to fail
+		has "event: more unfettered stuff"
+
+event "more unfettered stuff"
+	outfitter "Hai Unfettered"
+		"Hai Squall Cooling"
+	fleet "Large Unfettered"
+		add variant 3
+			"Solifuge (Ionic)"
+			"Violin Spider" 3
+			"Violin Spider (Pulse)" 3
+		add variant 1
+			"Solifuge (Ionic)"
+			"Solifuge (Tracker)"
+			"Violin Spider" 6
+			"Violin Spider (Pulse)" 6
+		add variant 2
+			"Shield Beetle (Ionic)"
+			"Solifuge"
+			"Violin Spider" 3
+			"Violin Spider (Pulse)" 3
+		add variant 1
+			"Shield Beetle (Ionic)"
+			"Solifuge (Ionic)"
+			"Violin Spider" 2
+			"Violin Spider (Pulse)" 4
+		add variant 2
+			"Solifuge (Pulse)"
+			"Violin Spider" 4
+			"Violin Spider (Pulse)" 2
+			"Lightning Bug (Ionic)" 2
+
+
+mission "Wanderers Ap'arak 3: Unfettered"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: the eye opens"
+	source
+		attributes "wanderer"
+	destination Earth
+	on offer
+		event "even more unfettered stuff"
+	to fail
+		has "even more unfettered stuff"
+
+event "even more unfettered stuff"
+	fleet "Large Unfettered"
+		add variant 2
+			"Modified Shield Beetle" 2
+		add variant 2
+			"Modified Shield Beetle"
+			"Solifuge (Ionic)"
+			"Violin Spider" 3
+			"Violin Spider (Pulse)" 3
+		add variant 
+			"Modified Shield Beetle" 2
+			"Shield Beetle (Ionic)"
+		add variant 2
+			"Modified Shield Beetle"
+			"Shield Beetle (Pulse)"
+
+mission "Kraz Hand To Hand 1"
+	landing
+	name "Message from Barmy Edward"
+	description "Barmy Edward sent you a message asking you to go to <destination> soon. Probably he has another weapon ready for testing."
+	source
+		near Kraz 1 100
+	destination Rust
+	to offer
+		has "free worlds plot completed"
+		has "event: flamethrower available"
+		random < 25
+	on offer
+		conversation
+			`As soon as you finish your post-flight checklist, you hear the usual beep that means there is a message incoming. It comes from <planet>. It says: "Hi <first>! It's been a while since our last meeting. If you wish to see our new product before it is on sale, come here on <destination> as soon as you can.`
+			``
+			``
+			`Barmy Edward, engineer at Kraz Cybernetics".`
+			``
+			`The message wasn't very clear about what you will see once there, but, from your previous experience, there are good chances it is another weapon.`
+				accept
+
+mission "Kraz Hand To Hand 2"
+	landing
+	source Rust
+	to offer
+		has "Kraz Hand To Hand 1: done"
+	on offer
+		event "heavy hand to hand available" 16
+		outfit "Heavy Laser Rifle" 1
+		conversation
+			`When you land, you open your ship's door and you start walking towards the main Kraz Cybernetics building. This time, you don't even have to give your name to the receptionist; as soon as she sees you, she says: "Welcome, Captain <last>! Barmy Edward is waiting for you in the building 13, second floor, room 9." The whole bulidig 13 reveals to be a weapon testing laboratory, with the second floor being focused on rifles testing. Barmy is in front of the room's door, with a smile on his face. He looks quite excited. "<first>! Long time no see. Are you ready to see the most beautiful thing in your life?"`
+			choice
+				`	"Absolutely!"`
+				`	"Why all this haste?"`
+				`	"What's behind that door?"`
+			`"Follow me" he says. He lays his hand on a device similar to a scanner next to the door, then types something on a pad which opens the door. The room is a rifle range, with some targets on the far side that start moving on some rails as soon as Barmy presses a switch. "For many decades, here at Kraz, we tried to understand enough of the Heavy Lasers to improve them. The Deep, once again, preceded us with their fantastic Electron Beam. While we haven't been able to replicate them, our previous studies on the laser technology haven't been a complete loss of time, but i guess you will judge that yourself." He opens a safe box and takes out a large rifle.`
+			scene outfit/heavy laser rifle
+			`"The Laser Rifle is older than any other laser currently used," he says "a piece of technology less complicated to understand, and to improve. I'm not saying it was easy, of course" he adds, hiding a smile.`
+			choice
+				`	"Can I try it?"`
+					goto test
+				`	"Why should I choose this over a couple grenades?"`
+					goto grenades
+				`	"It's wonderful."`
+			`	"Isn't it? It is also a very effective weapon. Shoot at those moving targets."`
+				goto shoot
+			label test
+			`	"Of course!	Shoot at those moving targets."`
+				goto shoot
+			label grenades
+			`	"Well, first of all, it will be more useful at defending than covering your ship and your crew with explosives," he says, with such a tone that you can't say if he was just sarcastic or also a little irritated, "not to mention the fact they are very barely legal, and could be banished one day. At least, I wouldn't start launching explosives in a ship where the smalles hole would kill you soon. Anyways," he says, handing you the rifle, "try it yourself. Shoot at those moving targets."`
+				goto shoot
+			label shoot
+			`	You kneel down and you try to aim. It is surprisingly comfortable to hold for such a heavy weapon. As soon as you press the trigger, it fires a fast succession of yellow-green shots that pierce through the target and set on fire the wall behind it. When you look at Barmy, you notice he has a large smile in his face. "How long until I can buy this?" you ask. "Hardly more than a week, the production line is almost completed. But you can keep the one you are holding; I don't need it, and I don't think anybody will be worried when they hear your name, <first>. You are somewhat of a celebrity here."`
+		fail
+
+mission "Kraz Hand To Hand 3"
+	landing
+	source
+		near Kraz 1 100
+	to offer
+		has "event: heavy hand to hand available"
+	on offer
+		conversation
+			`It's been more than two weeks since you met with Barmy, and you were starting to be tired of waiting for the Heavy Laser Rifles to be avaiable for sale, when you receive another message from Rust. It says: "Sorry for the wait, <first>. The boss decided to wait for another project to be ready before starting the mass production. These should be good news for you: when you come here you'll see another invention, an upgraded version of the Security Station. I didn't directly took part in its development, but I have been able to take an accurate look and I must admit it, they did a very good work."`
+			``
+			``
+			``Barmy Edward, engineer at Kraz Cybernetics".`
+		fail
+
+event "heavy hand to hand available"
+	outfitter "Kraz Advanced"
+		"Heavy Laser Rifle"
+		"Professional Security Station"

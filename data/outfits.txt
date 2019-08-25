@@ -28,3 +28,22 @@ outfit `"Babreii" Afterburner`
 	"afterburner heat" 7.2
 	"afterburner effect" "afterburner"
 	description "Considered nothing more than a relic from the past among many Hai, this afterburner is one of their most ancient designs and that has received very small modifications in the last centuries. Only a small part of the Hai still use them."
+
+outfit "Heavy Laser Rifle"
+	category "Hand to Hand"
+	cost 14500
+	thumbnail "outfit/heavy laser rifle"
+	"capture attack" 1
+	"capture defense" 1.4
+	"unplunderable" 1
+	description "The Heavy Laser Rifle is a recent invention of Kraz Cybernetics, an upgrade from the outdated weapon so common on many ships. While it is substantially better in than its base model, the cost is also much higher due to the materials used in its construction."
+
+outfit "Professional Security Station"
+	category "Hand to Hand"
+	cost 65000
+	thumbnail "outfit/professional security station"
+	"mass" 3
+	"outfit space" -3
+	"capture defense" 6.3
+	"unplunderable" 1
+	description "This defensive barrier is based on the original Security Station, but is much more recent. It has two blast door in case the boarders can blow up one and features a turret connected to a computer placed on the other side of the barricade, where a crew member can safely control it."
