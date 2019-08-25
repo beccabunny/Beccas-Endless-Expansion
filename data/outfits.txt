@@ -46,4 +46,4 @@ outfit "Professional Security Station"
 	"outfit space" -3
 	"capture defense" 6.3
 	"unplunderable" 1
-	description "This defensive barrier is based on the original Security Station, but is much more recent. It has two blast door in case the boarders can blow up one and features a turret connected to a computer placed on the other side of the barricade, where a crew member can safely control it."
+	description "This defensive barrier is based on the original Security Station, but is much more recent. It has two blast doors in case the boarders can blow up one and features a turret connected to a computer placed on the other side of the barricade, where a crew member can safely control it."
