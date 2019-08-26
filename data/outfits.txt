@@ -14,7 +14,7 @@ outfit "Hai Zephyr Cooling"
 	"mass" 14
 	"outfit space" -14
 	"cooling" 21
-	description "After the introduction of the Ionic Blaster and the consequential need of more reactors to power them, the Williwaw cooling wasn't anymore always enough anymore. They developed this cooling outfit to avoid overheating when they want to use many Ionic Blasters at once."
+	description "After the introduction of the Ionic Blaster and the consequential need of more reactors to power them, the Williwaw cooling wasn't anymore always enough. They developed this cooling outfit to avoid overheating when they want to use many Ionic Blasters at once."
 
 outfit `"Babreii" Afterburner`
 	category "Engines"
@@ -28,6 +28,15 @@ outfit `"Babreii" Afterburner`
 	"afterburner heat" 7.2
 	"afterburner effect" "afterburner"
 	description "Considered nothing more than a relic from the past among many Hai, this afterburner is one of their most ancient designs and that has received very small modifications in the last centuries. Only a small part of the Hai still use them."
+
+outfit "Ionic Rifle"
+	category "Hand to Hand"
+	cost 19000
+	thumbnail "outfit/hai ionic rifle"
+	"capture attack" 1.2
+	"capture defense" 1.7
+	"unplunderable" 1
+	description "After the end of the Korath raids, most of the Hai stopped designing new weapons, included those intended to harm other Hai. The Unfettered instead projected this new rifle, with the capacity of shooting ionized shots in fast succession with a higher charge than the ones fired by the older Pulse Rifle."
 
 outfit "Heavy Laser Rifle"
 	category "Hand to Hand"

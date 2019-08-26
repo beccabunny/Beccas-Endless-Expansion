@@ -10,6 +10,7 @@ ship "Shield Beetle" "Shield Beetle (Ionic)"
 		`"Bondir" Atomic Thruster`
 		"Pulse Turret" 2
 		"Pulse Cannon"
+		"Ionic Rifle" 47
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
@@ -26,6 +27,7 @@ ship "Shield Beetle" "Shield Beetle (Jump, Ionic)"
 		`"Bondir" Atomic Thruster`
 		"Pulse Turret" 2
 		"Pulse Cannon"
+		"Ionic Rifle" 47
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
@@ -40,7 +42,7 @@ ship "Water Bug" "Water Bug (Ionic)"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
-		"Pulse Rifle" 8
+		"Ionic Rifle" 8
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
 		"Hyperdrive"
@@ -55,7 +57,7 @@ ship "Water Bug" "Water Bug (Jump, Ionic)"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling"
 		"Quantum Keystone"
-		"Pulse Rifle" 8
+		"Ionic Rifle" 8
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
 		"Jump Drive"
@@ -71,6 +73,7 @@ ship "Lightning Bug" "Lightning Bug (Ionic)"
 		"Hai Corundum Regenerator"
 		"Hai Zephyr Cooling"
 		"Quantum Keystone"
+		"Ionic Rifle" 8
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
 		"Hyperdrive"
@@ -88,7 +91,7 @@ ship "Solifuge" "Solifuge (Ionic)"
 		"Hai Diamond Regenerator"
 		"Hai Squall Cooling"
 		"Hai Zephyr Cooling"
-		"Pulse Rifle" 62
+		"Ionic Rifle" 62
 		`"Benga" Atomic Steering`
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -229,7 +232,7 @@ ship "Solifuge" "Solifuge (Jump)"
 		"Hai Corundum Regenerator"
 		"Hai Squall Cooling"
 		"Hai Williwaw Cooling"
-		"Pulse Rifle" 86
+		"Ionic Rifle" 86
 		`"Benga" Atomic Steering`
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -246,7 +249,7 @@ ship "Solifuge" "Solifuge (Jump, Pulse)"
 		"Hai Corundum Regenerator"
 		"Hai Diamond Regenerator"
 		"Hai Squall Cooling" 2
-		"Pulse Rifle" 71
+		"Ionic Rifle" 71
 		`"Benga" Atomic Steering`
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -270,7 +273,7 @@ ship "Solifuge" "Solifuge (Jump, Tracker)"
 		"Hai Diamond Regenerator" 2
 		"Hai Squall Cooling"
 		"Hai Williwaw Cooling"
-		"Pulse Rifle" 68
+		"Ionic Rifle" 68
 		`"Benga" Atomic Steering`
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -287,7 +290,7 @@ ship "Solifuge" "Solifuge (Pulse)"
 		"Hai Corundum Regenerator"
 		"Hai Diamond Regenerator"
 		"Hai Squall Cooling" 2
-		"Pulse Rifle" 62
+		"Ionic Rifle" 62
 		`"Benga" Atomic Steering`
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -311,7 +314,7 @@ ship "Solifuge" "Solifuge (Tracker)"
 		"Hai Diamond Regenerator" 2
 		"Hai Squall Cooling"
 		"Hai Williwaw Cooling"
-		"Pulse Rifle" 59
+		"Ionic Rifle" 59
 		`"Benga" Atomic Steering`
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -437,7 +440,7 @@ ship "Modified Shield Beetle"
 		`"Babreii" Afterburner`
 		`"Bondir" Atomic Thruster`
 		`"Bufaer" Atomic Steering`
-		"Pulse Rifle" 61
+		"Ionic Rifle" 61
 	engine -42 134.5
 	engine 42 134.5
 	gun -21.5 -93

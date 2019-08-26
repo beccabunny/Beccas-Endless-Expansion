@@ -24,6 +24,7 @@ outfitter "Hai Unfettered"
 	"Ionic Blaster"
 	"Ionic Turret"
 	"Hai Zephyr Cooling"
+	"Ionic Rifle"
 
 outfitter "Hai Intermediate"
 	`"Babreii" Afterburner`
