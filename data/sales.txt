@@ -25,9 +25,15 @@ outfitter "Hai Unfettered"
 	"Ionic Turret"
 	"Hai Zephyr Cooling"
 	"Ionic Rifle"
+	"Protection Station"
+
+outfitter "Hai Basics"
+	"Protection Station"
 
 outfitter "Hai Intermediate"
 	`"Babreii" Afterburner`
+	"Protection Station"
 
 outfitter "Hai Advanced"
 	`"Babreii" Afterburner`
+	"Protection Station"
