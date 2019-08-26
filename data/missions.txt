@@ -118,7 +118,7 @@ mission "Kraz Hand To Hand 2"
 			`	"Well, first of all, it will be more useful at defending than covering your ship and your crew with explosives," he says, with such a tone that you can't say if he was just sarcastic or also a little irritated. "Not to mention," he adds," the fact they are barely legal, and could be banished one day. At least, I wouldn't start launching explosives in a ship where the smallest hole would kill you soon. Anyways, you can try it yourself. Shoot at those moving targets."`
 				goto shoot
 			label shoot
-			`	You kneel down and you try to aim. It is surprisingly comfortable to hold for such a heavy weapon. As soon as you press the trigger, it fires a fast succession of yellow-green shots that pierce through the target and set on fire the wall behind it. When you look at Barmy, you notice he has a large smile on his face.
+			`	You kneel down and you try to aim. It is surprisingly comfortable to hold for such a heavy weapon. As soon as you press the trigger, it fires a fast succession of yellow-green shots that pierce through the target and set on fire the wall behind it. When you look at Barmy, you notice he has a large smile on his face.`
 			choice
 				`	"How long until I can buy this?"`
 			`	"Hardly more than a week, the production line is almost completed. But you can keep the one you are holding. I don't need it, and I don't think anybody will be worried when they hear your name, <first>. You are somewhat of a celebrity here."`
