@@ -32,7 +32,7 @@ ship "Shield Beetle" "Shield Beetle (Jump, Ionic)"
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
-		"Protection Station" 2
+		"Protection Station"
 
 ship "Water Bug" "Water Bug (Ionic)"
 	outfits
