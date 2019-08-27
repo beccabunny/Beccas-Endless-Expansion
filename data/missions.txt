@@ -1,5 +1,6 @@
 mission "Battle For Sich'ka'ara Ends"
 	landing
+	invisible
 	to offer
 		has "event: battle for sich'ka'ara ends"
 	source
@@ -68,6 +69,23 @@ event "even more unfettered stuff"
 		add variant 2
 			"Modified Shield Beetle"
 			"Shield Beetle (Pulse)"
+
+mission "Wanderers: Mentors 4"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: hurricane mass production"
+	source
+		attributes "wanderer"
+	destination Earth
+	on offer
+		event "more wanderer stuff"
+	to fail
+		has "event: more wanderer stuff"
+
+event "more wanderer stuff"
+	outfitter "Wanderer Advanced"
+		"Wanderer Large Heat Sink"
 
 mission "Kraz Hand To Hand 1"
 	landing

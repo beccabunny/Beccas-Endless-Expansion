@@ -11,6 +11,7 @@ ship "Shield Beetle" "Shield Beetle (Ionic)"
 		"Pulse Turret" 2
 		"Pulse Cannon"
 		"Ionic Rifle" 47
+		"Protection Station"
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
@@ -29,6 +30,7 @@ ship "Shield Beetle" "Shield Beetle (Jump, Ionic)"
 		"Pulse Turret" 2
 		"Pulse Cannon"
 		"Ionic Rifle" 47
+		"Protection Station"
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
@@ -1039,7 +1041,7 @@ ship "Leviathan" "Leviathan (Radiothermal)"
 		"Heavy Laser Turret" 
 		"Anti-Missile Turret" 2
 		
-		"RT-II" 2
+		"RT-II Radiothermal" 2
 		"LP288a Battery Pack"
 		"D67-TM Shield Generator"
 		"Liquid Helium Cooler"
@@ -1089,7 +1091,7 @@ ship "Headhunter" "Headhunter (Radiothermal)"
 fleet "Large Northern Pirates"
 	add variant 3
 		"Firebird (Radiothermal)"
-		add variant 2
+	add variant 2
 		"Firebird (Radiothermal)"
 		"Firebird (Laser)"
 	add variant 2
@@ -1106,3 +1108,113 @@ fleet "Large Northern Pirates"
 	add variant 2
 		"Firebird (Missile)"
 		"Leviathan (Radiothermal)"
+
+ship "Hurricane"
+	sprite "ship/hurricane"
+	thumbnail "thumbnail/hurricane"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Wanderer Military"
+		"cost" 39100000
+		"shields" 72400
+		"hull" 46500
+		"required crew" 76
+		"bunks" 117
+		"mass" 770
+		"drag" 11.9
+		"heat dissipation" 0.55
+		"fuel capacity" 500
+		"cargo space" 98
+		"outfit space" 960
+		"weapon capacity" 428
+		"engine capacity" 140
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Sunbeam" 6
+		"Dual Sunbeam Turret" 2
+		"Wanderer Anti-Missile" 2
+		
+		"Blue Sun Reactor"
+		"White Sun Reactor"
+		"Dark Storm Shielding" 2
+		"Wanderer Large Heat Sink"
+		"Wanderer Ramscoop"
+		
+		"Type 4 Radiant Thruster"
+		"Type 4 Radiant Steering"
+		"Type 1 Radiant Steering"
+		"Hyperdrive"
+		
+	engine -23 181
+	engine 23 181
+	gun -68 5
+	gun 68 5
+	gun -85 21
+	gun 85 21
+	gun -62 32
+	gun 62 32
+	turret -27 -80 "Dual Sunbeam Turret"
+	turret 27 -80 "Dual Sunbeam Turret"
+	turret 0 -33
+	turret -39 140 "Wanderer Anti-Missile"
+	turret 39 140 "Wanderer Anti-Missile"
+	explode "small explosion" 20
+	explode "medium explosion" 80
+	explode "large explosion" 70
+	explode "huge explosion" 30
+	"final explode" "final explosion large" 1
+	description "The Hurricane is not built for speed, elegance, or versatility, but for one simple purpose: to be durable enough to serve as a rearguard, absorbing an enemy's attacks for long enough to allow the fleet it is guarding to escape."
+
+ship "Hurricane" "Hurricane (Turret)"
+	outfits
+		"Dual Sunbeam Turret" 5
+		
+		"Blue Sun Reactor" 2
+		"Dark Storm Shielding" 2
+		"Wanderer Large Heat Sink"
+		"Outfits Expansion" 3
+		"Wanderer Ramscoop"
+		
+		"Type 4 Radiant Thruster"
+		"Type 2 Radiant Thruster"
+		"Type 4 Radiant Steering"
+		"Hyperdrive"
+
+ship "Hurricane" "Hurricane (Tough)"
+	outfits
+		"Sunbeam" 2
+		"Thunderhead Launcher" 4
+		"Thunderhead Missile" 160
+		"Dual Sunbeam Turret" 2
+		"Wanderer Anti-Missile" 2
+		
+		"Blue Sun Reactor"
+		"White Sun Reactor"
+		"Dark Storm Shielding" 3
+		"Bright Cloud Shielding"
+		"Wanderer Ramscoop" 2
+		"Outfits Expansion" 3
+		"Wanderer Large Heat Sink"
+		
+		"Type 4 Radiant Thruster"
+		"Type 1 Radiant Thruster"
+		"Type 4 Radiant Steering"
+		"Type 1 Radiant Steering"
+		"Hyperdrive"
+
+	gun "Sunbeam"
+	gun "Sunbeam"
+	gun "Thunderhead Launcher"
+	gun "Thunderhead Launcher"
+	gun "Thunderhead Launcher"
+	gun "Thunderhead Launcher"
+	turret "Dual Sunbeam Turret"
+	turret "Dual Sunbeam Turret"
+	turret
+	turret "Wanderer Anti-Missile"
+	turret "Wanderer Anti-Missile"

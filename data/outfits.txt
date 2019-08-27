@@ -76,3 +76,14 @@ outfit "RT-II Radiothermal"
 	"energy generation" 6.1
 	"heat generation" 27
 	description "A few hundreds of years ago, the northern anarchists didn't have access to any heavy generator except the RTI-I model, but with the increase of the ship systems power need they were starting to suffer of low energy more and more often. Their situation got better when one of the few manufacturers on their worlds developed a larger and more space efficent version, but they soon found out it creates more heat than the previus model."
+
+outfit "Wanderer Large Heat Sink"
+	category "Systems"
+	licenses
+		"Wanderer Outfits"
+	cost 143000
+	thumbnail "outfit/wanderer large heat sink"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 57
+	description "When they started producing reactors so large that a simple Heat Sink wasn't enough anymore, the Wanderers understood that a new cooling system was necessary. The result is better than its predecessor, but it's still quite inefficent."
