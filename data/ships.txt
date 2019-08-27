@@ -11,11 +11,10 @@ ship "Shield Beetle" "Shield Beetle (Ionic)"
 		"Pulse Turret" 2
 		"Pulse Cannon"
 		"Ionic Rifle" 47
-		"Protection Station"
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
-		"Protection Station"
+		"Protection Station" 2
 
 ship "Shield Beetle" "Shield Beetle (Jump, Ionic)"
 	outfits
@@ -30,11 +29,10 @@ ship "Shield Beetle" "Shield Beetle (Jump, Ionic)"
 		"Pulse Turret" 2
 		"Pulse Cannon"
 		"Ionic Rifle" 47
-		"Protection Station"
 		"Ionic Blaster" 7
 		"Hai Zephyr Cooling"
 		"Ionic Turret" 2
-		"Protection Station"
+		"Protection Station" 2
 
 ship "Water Bug" "Water Bug (Ionic)"
 	outfits
