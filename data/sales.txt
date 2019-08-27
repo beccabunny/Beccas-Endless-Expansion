@@ -54,6 +54,3 @@ outfitter "Hai Intermediate"
 outfitter "Hai Advanced"
 	`"Babreii" Afterburner`
 	"Protection Station"
-
-outfitter "Coalition Advanced"
-	"Large Cooling Module"

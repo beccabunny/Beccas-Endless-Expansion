@@ -87,15 +87,3 @@ outfit "Wanderer Large Heat Sink"
 	"outfit space" -31
 	"cooling" 57
 	description "When they started producing reactors so large that a simple Heat Sink wasn't enough anymore, the Wanderers understood that a new cooling system was necessary. The result is better than its predecessor, but it's still quite inefficent."
-
-outfit "Large Cooling Module"
-	category "Systems"
-	licenses
-		Coalition
-	cost 640000
-	thumbnail "outfit/large cooling module"
-	"mass" 17
-	"outfit space" -17
-	"active cooling" 73
-	"cooling energy" 4.1
-	description "While the Quarg didn't fight the Coalition with heat weapons, the Heliarch know that they need to be prepared for the eventuality. Since it can consume less power when it isn't required, the heaviest patroller ships use it by default to be ready when the time will come."
