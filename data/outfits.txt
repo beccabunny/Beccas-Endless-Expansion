@@ -66,3 +66,13 @@ outfit "Professional Security Station"
 	"capture defense" 6.3
 	"unplunderable" 1
 	description "This defensive barrier is based on the original Security Station, but is much more recent. It has two blast doors in case the boarders can blow up one and features a turret connected to a computer placed on the other side of the barricade, where a crew member can safely control it."
+
+outfit "RT-II Radiothermal"
+	category "Power"
+	cost 425000
+	thumbnail "outfit/modified radiothermal"
+	"mass" 63
+	"outfit space" -63
+	"energy generation" 6.1
+	"heat generation" 27
+	description "A few hundreds of years ago, the northern anarchists didn't have access to any heavy generator except the RTI-I model, but with the increase of the ship systems power need they were starting to suffer of low energy more and more often. Their situation got better when one of the few manufacturers on their worlds developed a larger and more space efficent version, but they soon found out it creates more heat than the previus model."

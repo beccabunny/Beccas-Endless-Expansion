@@ -1034,3 +1034,77 @@ ship "Water Bug" "Water Bug (Pulse)"
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
 		"Hyperdrive"
+
+ship "Leviathan" "Leviathan (Radiothermal)"
+	outfits
+		"Particle Cannon" 4
+		"Heavy Laser Turret" 
+		"Anti-Missile Turret" 2
+		
+		"RT-II" 2
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 32
+		
+		"Impala Plasma Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
+ship "Firebird" "Firebird (Radiothermal)"
+	outfits
+		"Particle Cannon" 3
+		"Meteor Missile Launcher"
+		"Meteor Missile" 30
+		"Quad Blaster Turret" 2
+		
+		"RT-II Radiothermal"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 10
+		"Water Coolant System"
+		
+		"X3700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1050 Ion Engines"
+		"Hyperdrive"
+
+ship "Headhunter" "Headhunter (Radiothermal)"
+	outfits
+		"Heavy Laser" 2
+		"Beam Laser"
+		"Energy Blaster"
+		"Anti-Missile Turret"
+		
+		"RT-II Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Supercapacitor" 2
+		"Laser Rifle" 2
+		"Security Station" 2
+		
+		"A120 Atomic Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+fleet "Large Northern Pirates"
+	add variant 3
+		"Firebird (Radiothermal)"
+		add variant 2
+		"Firebird (Radiothermal)"
+		"Firebird (Laser)"
+	add variant 2
+		"Headhunter (Radiothermal)"
+		"Headhunter (Strike)"
+	add variant 1
+		"Headhunter (Radiothermal)" 2
+		"Headhunter (Particle)"
+	add variant 4
+		"Leviathan (Radiothermal)"
+	add variant 2
+		"Leviathan (Radiothermal)"
+		"Firebird (Radiothermal)"
+	add variant 2
+		"Firebird (Missile)"
+		"Leviathan (Radiothermal)"

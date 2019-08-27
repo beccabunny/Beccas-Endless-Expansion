@@ -1,6 +1,23 @@
 outfitter "Kraz Basics"
 	"Accurate Gatling Blaster"
 
+outfitter "Pirate Outfits"
+	"Accurate Gatling Blaster"
+
+outfitter "Northern Pirate Outfits"
+	"RT-II Radiothermal"
+	"RT-I Radiothermal"
+	"Modified Blaster"
+	"Modified Blaster Turret"
+	"Plasma Cannon"
+	"Laser Rifle"
+	"Fragmentation Grenades"
+	"Nerve Gas"
+	"Scram Drive"
+	"Local Map"
+	"Interference Plating"
+	"Brig"
+
 outfitter "Hai Unfettered"
 	"Pulse Cannon"
 	"Hai Tracker"
