@@ -86,6 +86,7 @@ mission "Wanderers: Mentors 4"
 event "more wanderer stuff"
 	outfitter "Wanderer Advanced"
 		"Wanderer Large Heat Sink"
+		"Wanderer Heavy Anti-Missile"
 
 mission "Kraz Hand To Hand 1"
 	landing

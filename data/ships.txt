@@ -1135,19 +1135,21 @@ ship "Hurricane"
 			"hull damage" 2000
 			"hit force" 6000
 	outfits
-		"Sunbeam" 6
+		"Sunbeam" 5
 		"Dual Sunbeam Turret" 2
-		"Wanderer Anti-Missile" 2
+		"Wanderer Anti-Missile"
+		"Wanderer Heavy Anti-Missile"
+		"Thunderhead Launcher"
+		"Thunderhead Missile" 40
 		
 		"Blue Sun Reactor"
 		"White Sun Reactor"
 		"Dark Storm Shielding" 2
 		"Wanderer Large Heat Sink"
-		"Wanderer Ramscoop"
+		"Wanderer Ramscoop" 2
 		
 		"Type 4 Radiant Thruster"
 		"Type 4 Radiant Steering"
-		"Type 1 Radiant Steering"
 		"Hyperdrive"
 		
 	engine -23 181
@@ -1161,7 +1163,7 @@ ship "Hurricane"
 	turret -27 -80 "Dual Sunbeam Turret"
 	turret 27 -80 "Dual Sunbeam Turret"
 	turret 0 -33
-	turret -39 140 "Wanderer Anti-Missile"
+	turret -39 140 "Wanderer Heavy Anti-Missile"
 	turret 39 140 "Wanderer Anti-Missile"
 	explode "small explosion" 20
 	explode "medium explosion" 80
@@ -1191,20 +1193,19 @@ ship "Hurricane" "Hurricane (Tough)"
 		"Thunderhead Launcher" 4
 		"Thunderhead Missile" 160
 		"Dual Sunbeam Turret" 2
-		"Wanderer Anti-Missile" 2
+		"Wanderer Heavy Anti-Missile" 2
 		
 		"Blue Sun Reactor"
 		"White Sun Reactor"
 		"Dark Storm Shielding" 3
 		"Bright Cloud Shielding"
 		"Wanderer Ramscoop" 2
-		"Outfits Expansion" 3
+		"Outfits Expansion" 4
 		"Wanderer Large Heat Sink"
+		"Wanderer Heat Sink"
 		
 		"Type 4 Radiant Thruster"
-		"Type 1 Radiant Thruster"
 		"Type 4 Radiant Steering"
-		"Type 1 Radiant Steering"
 		"Hyperdrive"
 
 	gun "Sunbeam"
@@ -1216,5 +1217,5 @@ ship "Hurricane" "Hurricane (Tough)"
 	turret "Dual Sunbeam Turret"
 	turret "Dual Sunbeam Turret"
 	turret
-	turret "Wanderer Anti-Missile"
-	turret "Wanderer Anti-Missile"
+	turret "Wanderer Heavy Anti-Missile"
+	turret "Wanderer Heavy Anti-Missile"

@@ -87,3 +87,25 @@ outfit "Wanderer Large Heat Sink"
 	"outfit space" -31
 	"cooling" 57
 	description "When they started producing reactors so large that a simple Heat Sink wasn't enough anymore, the Wanderers understood that a new cooling system was necessary. The result is better than its predecessor, but it's still quite inefficent."
+
+outfit "Wanderer Heavy Anti-Missile"
+	category "Turrets"
+	licenses
+		"Wanderer Outfits"
+	cost 1240000
+	thumbnail "outfit/wanderer heavy anti missile"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/wanderer anti-missile"
+		"hardpoint offset" 6.
+		"hit effect" "wanderer anti-missile"
+		"anti-missile" 55
+		"velocity" 360
+		"lifetime" 1
+		"reload" 15
+		"firing energy" 60
+		"firing heat" 17
+	description "This anti-missile system is more powerful and a bit faster than the previous version, while also requiring more energy and creating more heat."
