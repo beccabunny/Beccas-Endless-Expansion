@@ -1,0 +1,16 @@
+outfitter plugin
+	"Accurate Gatling Blaster"
+	"Hai Squall Cooling"
+	"Hai Zephyr Cooling"
+	"Heavy Laser Rifle"
+	"Ionic Blaster"
+	"Ionic Rifle"
+	"Ionic Turret"
+	"Professional Security Station"
+	"Protection Station"
+	"RT-II Radiothermal"
+	"Wanderer Heavy Anti-Missile"
+	"Wanderer Large Heat Sink"
+	`"Babreii" Afterburner`
+shipyard plugin
+	"Modified Shield Beetle"
