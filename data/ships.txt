@@ -1219,3 +1219,135 @@ ship "Hurricane" "Hurricane (Tough)"
 	turret
 	turret "Wanderer Heavy Anti-Missile"
 	turret "Wanderer Heavy Anti-Missile"
+
+ship "Swan"
+	sprite "ship/swan"
+	thumbnail "thumbnail/swan"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			"Remnant Capital"
+		cost 13580000
+		"shields" 10400
+		"hull" 5350
+		"required crew" 31
+		"bunks" 46
+		"cargo space" 452
+		"mass" 450
+		"drag" 7.9
+		"heat dissipation" 0.65
+		"fuel capacity" 500
+		"ramscoop" 1.7
+		"outfit space" 456
+		"weapon capacity" 132
+		"engine capacity" 114
+		"shield generation" 2.1
+		"shield energy" 1.5
+		"hull repair rate" 0.9
+		"hull energy" 0.7
+		"outfit scan power" 9
+		"outfit scan speed" 1
+		"tactical scan power" 21
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Thrasher Cannon" 3
+		"Thrasher Turret"
+		"Point Defense Turret"
+		"EMP Torpedo Bay"
+		"EMP Torpedo" 9
+
+		"Aeon Cell"
+		"Crystal Capacitor" 2
+		"Thermoelectric Cooler"
+		"Emergency Ramscoop"
+		"Quantum Key Stone"
+		"Cargo Expansion"
+		"Salvage Scanner"
+		"Tuning Rifle" 23
+
+		"Crucible-Class Steering"
+		"Forge-Class Thruster"
+		"Forge-Class Steering"
+		"Hyperdrive"
+
+	engine 0 114 
+	engine -16 106.5 0.7
+	engine 16 106.5 0.7
+	gun -16 -117
+	gun 16 -117
+	gun -27.5 -72
+	gun 27.5 -72
+	turret 0 -5.5
+	turret -35 89
+	turret 35 89
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	"final explode" "final explosion large" 1
+	description "Compared to the other freighter used by the Remnant the Swan is an old, and outdated, design: developed at the same time as the agile Starling, but without any integrated cloaking technology. Its main purpose is hauling large quantities of goods between planets, where, if needed, it can land to repair the hull or use its firepower to join the defense fleets."
+
+ship "Swan" "Swan (Sniper)"
+	outfits
+		"Inhibitor Cannon" 4
+		"Point Defense Turret" 2
+
+		"Aeon Cell"
+		"Crystal Capacitor"
+		"Thermoelectric Cooler" 2
+		"Emergency Ramscoop"
+		"Quantum Key Stone"
+		"Cargo Expansion"
+		"Salvage Scanner"
+		"Tuning Rifle" 21
+
+		"Forge-Class Thruster"
+		"Smelter-Class Steering"
+		"Hyperdrive"
+
+ship "Swan" "Swan (Cargo)"
+	outfits
+		"Point Defense Turret" 3
+
+		"Aeon Cell"
+		"Crystal Capacitor"
+		"Thermoelectric Cooler"
+		"Emergency Ramscoop"
+		"Quantum Key Stone"
+		"Cargo Expansion" 3
+		"Tuning Rifle" 14
+
+		"Forge-Class Thruster"
+		"Smelter-Class Steering"
+		"Hyperdrive"
+
+
+fleet "Remnant Transport"
+	add variant 10
+		"Swan"
+	add variant 5
+		"Swan (Sniper)"
+	add variant 5
+		"Swan (Cargo)"
+	add variant 4
+		"Swan (Cargo)"
+		"Gull (Cargo)" 
+		"Albatross (Heavy)"
+	add variant 5
+		"Swan (Cargo)" 2
+		"Albatross (Heavy)"
+	add variant 4
+		"Swan (Cargo)"
+		"Gull (Cargo)" 
+		"Albatross (Heavy)"
+	add variant 1
+		"Swan (Sniper)" 2
+		"Starling (Sniper)"
+		"Albatross (Sniper)"
+	add variant 4
+		"Starling (Thrasher)"
+		"Swan"

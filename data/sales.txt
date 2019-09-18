@@ -54,3 +54,6 @@ outfitter "Hai Intermediate"
 outfitter "Hai Advanced"
 	`"Babreii" Afterburner`
 	"Protection Station"
+
+shipyard "Remnant"
+	"Swan"
