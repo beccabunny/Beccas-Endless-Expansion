@@ -158,3 +158,47 @@ event "heavy hand to hand available"
 	outfitter "Kraz Advanced"
 		"Heavy Laser Rifle"
 		"Professional Security Station"
+
+mission "Remnant: Return the Samples 2B"
+	invisible
+	landing
+	source 
+		government "Remnant"
+	to offer
+		has "Remnant: Return the Samples 2: done"
+	on offer
+		event "Robin unlocked" 14
+		fail
+
+event "Robin unlocked"
+	shipyard "Remnant Gascraft"
+		"Robin"
+	fleet "Remnant Transport"
+		add variant 5
+			"Robin (Thrusters)"
+			"Starling" 2
+		add variant 7
+			"Robin"
+			"Starling (Heavy)"
+		add variant 2
+			"Robin (Cargo)"
+			"Albatross"
+		add variant 4
+			"Robin" 2
+			"Robin (Thrusters)"
+			"Albatross"
+			"Starling (Heavy)" 2
+
+mission "Remnant: Robin developed"
+	invisible
+	landing
+	source 
+		government "Remnant"
+	destination "Viminal"
+	to offer
+		has "event: Robin unlocked"
+	on offer
+		conversation
+			`Soon after you land, you recive a message from Plume, the xenobiologist that you recently helped. It chants: "Hello, Captain <last>! Since your first contact with the void sprite, we have been working hard on improving the gascraft using modern construction techniques and more advanced instruments."`
+			`	"When you were able to establish a ceasefire with the Archon, we received enough founds to complete a working prototype. It's now being mass produced on <planet>! While we aren't confident enough with it to travel frequently to Nenia and back, our pilots are training in our home systems to prepare for our future needs."`
+				decline

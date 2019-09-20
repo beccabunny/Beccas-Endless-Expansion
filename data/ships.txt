@@ -1349,3 +1349,73 @@ fleet "Remnant Transport"
 	add variant 4
 		"Starling (Thrasher)"
 		"Swan"
+
+ship "Robin"
+	sprite "ship/robin"
+	thumbnail "thumbnail/robin"
+	attributes
+		category Transport
+		licenses
+			Remnant
+		cost 1710000
+		"shields" 1800
+		"hull" 1300
+		"required crew" 1
+		"bunks" 2
+		"mass" 150
+		"drag" 1.9
+		"heat dissipation" 0.9
+		"fuel capacity" 800
+		"energy capacity" 150
+		"ramscoop" 1.1
+		"cargo space" 24
+		"outfit space" 141
+		"engine capacity" 58
+		"shield generation" 0.8
+		"shield energy" 0.6
+		"hull repair rate" 1.3
+		"hull energy" 1.1
+		"gaslining" 1
+		"outfit scan power" 21
+		"outfit scan speed" 1
+		"tactical scan power" 59
+		"atmosphere scan" 100
+	outfits
+		"Millennium Cell" 2
+		"Emergency Ramscoop"
+		"Thermoelectric Cooler"
+		"Quantum Key Stone"
+
+		"Crucible-Class Thruster"
+		"Forge-Class Steering"
+		"Hyperdrive"
+
+	engine -18 35.5 0.5
+	engine 0 53.5
+	engine 18 35.5 0.5
+	explode "tiny explosion" 8
+	explode "small explosion" 7
+	description "Since the beginning of the renewed safety of the contacts with the Void Sprites, the Remnant have tried to improve the Gascraft's basic design. The Robin has better capabilities than its predecessor, but still lacks the armament to be of any use during a fight."
+
+ship "Robin" "Robin (Cargo)"
+	outfits
+		"Millennium Cell"
+		"Crystal Capacitor"
+		"Emergency Ramscoop"
+		"Quantum Key Stone"
+		"Cargo Expansion" 2
+
+		"Crucible-Class Thruster"
+		"Crucible-Class Steering"
+		"Hyperdrive"
+
+ship "Robin" "Robin (Thrusters)"
+	outfits
+		"Millennium Cell" 2
+		"Emergency Ramscoop"
+		"Thermoelectric Cooler"
+		"Quantum Key Stone"
+
+		"Forge-Class Thruster"
+		"Crucible-Class Steering"
+		"Hyperdrive"
