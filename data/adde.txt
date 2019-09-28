@@ -12,7 +12,8 @@ outfitter plugin
 	"Wanderer Heavy Anti-Missile"
 	"Wanderer Large Heat Sink"
 	`"Babreii" Afterburner`
+	"Fuel Centrifuge"
 shipyard plugin
 	"Modified Shield Beetle"
-	Robin
-	Swan
+	"Robin"
+	"Swan"

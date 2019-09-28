@@ -199,6 +199,6 @@ mission "Remnant: Robin developed"
 		has "event: Robin unlocked"
 	on offer
 		conversation
-			`Soon after you land, you recive a message from Plume, the xenobiologist that you recently helped. It chants: "Hello, Captain <last>! Since your first contact with the void sprite, we have been working hard on improving the gascraft using modern construction techniques and more advanced instruments."`
-			`	"When you were able to establish a ceasefire with the Archon, we received enough founds to complete a working prototype. It's now being mass produced on <planet>! While we aren't confident enough with it to travel frequently to Nenia and back, our pilots are training in our home systems to prepare for our future needs."`
+			`Soon after you land, you receive a message from Plume, the xenobiologist you helped recently. The message chants, "Hello, Captain <last>! Ever since you first made contact with the void sprite(s), we have been developing an improved gascraft to make better use of modern construction techniques and advanced instrumentation."`
+			`	With the Archon no longer attacking our ships, we've been allocated sufficient resources to complete a working prototype of this new design, one we're calling the Robin. It's still in early development, and we aren't confident in how it will handle frequent trips to Nenia and back. But the shipyard on <planet> has begun mass producing them, and you might see our young pilots training in them around some of our home worlds."`
 				decline

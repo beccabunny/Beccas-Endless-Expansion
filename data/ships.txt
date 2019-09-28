@@ -1419,3 +1419,35 @@ ship "Robin" "Robin (Thrusters)"
 		"Forge-Class Thruster"
 		"Crucible-Class Steering"
 		"Hyperdrive"
+
+ship "Cruiser" "Cruiser (Jump)"
+	outfits
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 60
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Electron Turret" 3
+		"Heavy Anti-Missile Turret"
+		"Laser Rifle" 20
+		"Fragmentation Grenades" 20
+		"Armageddon Core"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Small Radar Jammer"
+		"Liquid Helium Cooler"
+		"Fuel Centrifuge"
+		"Ramscoop"
+		"Outfits Expansion" 2
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Jump Drive"
+	gun "Sidewinder Missile Launcher"
+	gun "Sidewinder Missile Launcher"
+	gun "Typhoon Launcher"
+	gun "Typhoon Launcher"
+	gun "Sidewinder Missile Launcher"
+	gun "Sidewinder Missile Launcher"
+	turret "Electron Turret"
+	turret "Electron Turret"
+	turret "Electron Turret"
+	turret "Heavy Anti-Missile Turret"

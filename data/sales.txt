@@ -1,5 +1,9 @@
 outfitter "Kraz Basics"
 	"Accurate Gatling Blaster"
+	"Fuel Centrifuge"
+
+outfitter "Kraz Advanced"
+	"Fuel Centrifuge"
 
 outfitter "Pirate Outfits"
 	"Accurate Gatling Blaster"
@@ -13,6 +17,7 @@ outfitter "Northern Pirate Outfits"
 	"Laser Rifle"
 	"Fragmentation Grenades"
 	"Nerve Gas"
+	"Fuel Centrifuge"
 	"Scram Drive"
 	"Local Map"
 	"Interference Plating"
