@@ -14,3 +14,5 @@ outfitter plugin
 	`"Babreii" Afterburner`
 shipyard plugin
 	"Modified Shield Beetle"
+	Robin
+	Swan
