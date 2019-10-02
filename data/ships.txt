@@ -1451,3 +1451,153 @@ ship "Cruiser" "Cruiser (Jump)"
 	turret "Electron Turret"
 	turret "Electron Turret"
 	turret "Heavy Anti-Missile Turret"
+
+ship "Far Ek Tek 243"
+	sprite "ship/far ek tek 243"
+	thumbnail "thumbnail/far ek tek 243"
+	attributes
+		category "Medium Warship"
+		"cost" 17320000
+		"shields" 25500
+		"hull" 18500
+		"mass" 510
+		"automaton" 1
+		"drag" 8.2
+		"self destruct" 0.8
+		"heat dissipation" .55
+		"fuel capacity" 600
+		"cargo space" 216
+		"outfit space" 564
+		"weapon capacity" 231
+		"engine capacity" 102
+		"ramscoop" 2.5
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Korath Repeater"
+		"Korath Repeater Turret" 2
+		"Korath Slicer"
+		"Korath Warder" 2
+		"Korath Grab-Strike"
+
+		"Control Transceiver"
+		"Jump Drive"
+		"Large Heat Shunt" 2
+		"Systems Core (Medium)"
+
+		"Plasma Core"
+		"Generator (Candle Class)"
+		"Generator (Inferno Class)"
+		"Steering (Lunar Class)"
+		"Thruster (Lunar Class)"
+		
+	engine -43.5 150.5
+	engine 43.5 150.5
+	gun -26 -152
+	gun 26 -152
+	turret -49.5 -86
+	turret -51 -35
+	turret -51.5 -63
+	turret 49.5 -86
+	turret 51 -35
+	turret 51.5 -63
+	explode "tiny explosion" 70
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 22
+	explode "huge explosion" 8
+	"final explode" "final explosion large"
+	description `After they started producing automated drones, the Korath Exiles decided to adapt them for their needs. The Far Ek Tek 243 is a  spaceship that can raid the nearby species, but that doesn't require any crew to operate.`
+
+ship "Far Ek Tek 243" "Far Ek Tek 243 (Missile)"
+	outfits
+		"Jump Drive"
+		"Korath Mine" 17
+		"Korath Minelayer"
+		"Korath Repeater Turret" 2
+		"Korath Piercer Launcher"
+		"Korath Piercer" 31
+		"Generator (Candle Class)"
+		"Double Plasma Core"
+		"Systems Core (Medium)"
+		"Korath Grab-Strike"
+		"Thruster (Planetary Class)"
+		"Korath Warder"
+		"Steering (Lunar Class)"
+		"Control Transceiver"
+		"Large Heat Shunt" 2
+		"Fuel Processor"
+
+ship "Far Ek Tek 243" "Far Ek Tek 243 (Mereti)"
+	outfits
+		"Jump Drive"
+		"Korath Slicer Turret" 2
+		"Korath Disruptor" 3
+		"Generator (Inferno Class)"
+		"Double Plasma Core"
+		"Steering (Asteroid Class)"
+		"Control Transceiver"
+		"Large Heat Shunt" 2
+		"Steering (Comet Class)"
+		"Thruster (Comet Class)"
+		"Systems Core (Small)"
+		"Fuel Processor"
+
+ship "Far Ek Tek 243" "Far Ek Tek 243 (Ember)"
+	outfits
+		"Jump Drive"
+		"Hyperdrive"
+		"Korath Mine" 17
+		"Korath Minelayer"
+		"Korath Repeater Turret" 2
+		"Korath Piercer Launcher"
+		"Korath Piercer" 31
+		"Generator (Candle Class)"
+		"Double Plasma Core"
+		"Systems Core (Small)"
+		"Korath Grab-Strike"
+		"Thruster (Planetary Class)"
+		"Korath Warder"
+		"Steering (Lunar Class)"
+		"Control Transceiver"
+		"Large Heat Shunt" 2
+		"Fuel Processor"
+
+ship "Far Ek Tek 243" "Far Ek Tek 243 (Ember, Mereti)"
+	outfits
+		"Jump Drive"
+		"Hyperdrive"
+		"Korath Slicer Turret" 2
+		"Korath Disruptor" 3
+		"Generator (Inferno Class)"
+		"Double Plasma Core"
+		"Steering (Asteroid Class)"
+		"Control Transceiver"
+		"Large Heat Shunt" 2
+		"Thruster (Comet Class)"
+		"Systems Core (Small)"
+		"Fuel Processor"
+
+mission "New Exile Drones"
+	landing
+	to offer
+		has "Wanderers: Sestor: Final: done"
+	on offer
+		event "exiles new drones" 10
+
+event "exiles new drones"
+	fleet "Korath Raid"
+		add variant 2
+			"Far Ek Tek 243"
+		add variant 2
+			"Far Ek Tek 243 (Mereti)"
+		add variant 
+			"Far Ek Tek 243 (Missile)"
+	fleet "Korath Ember Waste Raid"
+		add variant 2
+			"Far Ek Tek 243 (Ember)"
+		add variant 
+			"Far Ek Tek 243 (Ember, Mereti)"

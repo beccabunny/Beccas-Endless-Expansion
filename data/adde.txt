@@ -17,3 +17,4 @@ shipyard plugin
 	"Modified Shield Beetle"
 	"Robin"
 	"Swan"
+	"Far Ek Tek 243"
