@@ -1596,8 +1596,90 @@ event "exiles new drones"
 			"Far Ek Tek 243 (Mereti)"
 		add variant 
 			"Far Ek Tek 243 (Missile)"
+		add variant 2
+			"Korath Raider (Sestor)"
+			"Far Osk 27" 2
+		add variant
+			"Korath Raider (Mereti)"
+			"Far Osk 27" 2
 	fleet "Korath Ember Waste Raid"
 		add variant 2
 			"Far Ek Tek 243 (Ember)"
+		add variant 2
+			"Korath Raider (Sestor, Ember)"
+			"Far Osk 27" 2
+		add variant
+			"Korath Raider (Mereti, Ember)"
+			"Far Osk 27" 2
 		add variant 
 			"Far Ek Tek 243 (Ember, Mereti)"
+
+ship "Korath Raider" "Korath Raider (Sestor)"
+	outfits
+		"Outfits Expansion"
+		"Jump Drive"
+		"Generator (Candle Class)"
+		"Systems Core (Large)"
+		"Small Heat Shunt"
+		"Fuel Processor"
+		"Generator (Inferno Class)"
+		"Double Plasma Core"
+		"Large Heat Shunt" 2
+		"Korath Banisher"
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+		"Korath Repeater Rifle" 196
+		"Korath Repeater Turret" 2
+		"Korath Grab-Strike" 2
+		"Korath Slicer Turret"
+
+ship "Korath Raider" "Korath Raider (Sestor, Ember)"
+	outfits
+		"Outfits Expansion"
+		"Jump Drive"
+		"Hyperdrive"
+		"Systems Core (Large)"
+		"Small Heat Shunt"
+		"Fuel Processor"
+		"Generator (Inferno Class)"
+		"Double Plasma Core"
+		"Large Heat Shunt" 2
+		"Korath Banisher"
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+		"Korath Repeater Rifle" 196
+		"Korath Repeater Turret" 2
+		"Korath Grab-Strike" 2
+		"Korath Slicer Turret"
+
+ship "Korath Raider" "Korath Raider (Mereti)"
+	outfits
+		"Outfits Expansion"
+		"Triple Plasma Core"
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Large Heat Shunt" 3
+		"Systems Core (Large)"
+		"Fuel Processor"
+		"Jump Drive"
+		"Korath Disruptor" 4
+		"Korath Slicer Turret" 2
+		"Steering (Planetary Class)"
+		"Korath Repeater Rifle" 196
+
+ship "Korath Raider" "Korath Raider (Mereti, Ember)"
+	outfits
+		Hyperdrive
+		"Outfits Expansion"
+		"Triple Plasma Core"
+		"Thruster (Lunar Class)"
+		"Large Heat Shunt" 3
+		"Systems Core (Large)"
+		"Fuel Processor"
+		"Jump Drive"
+		"Korath Disruptor" 4
+		"Korath Slicer Turret" 2
+		"Steering (Planetary Class)"
+		"Korath Repeater Rifle" 196

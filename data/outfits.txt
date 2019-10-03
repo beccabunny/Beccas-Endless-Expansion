@@ -113,7 +113,7 @@ outfit "Wanderer Heavy Anti-Missile"
 outfit "Fuel Centrifuge"
 	category "Systems"
 	cost 95000
-	thumbnail "outfit/fuel centrifuge"
+	thumbnail "outfit/fuel compressor"
 	"mass" 25
 	"outfit space" -25
 	"energy consumption" .4
