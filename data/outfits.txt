@@ -119,4 +119,4 @@ outfit "Fuel Centrifuge"
 	"energy consumption" .4
 	"heat generation" 3
 	"fuel capacity" 400
-	description "Long ago, when a captain could refuel only on a handful, distant systems, running out of fuel was a serious risk: in addition to ramscoops, large fuel centrifuges were installed in most ships. They are able to contain hyperspace fuel in a few pods, but in the process that makes it possible it also becomes lass stable and to avoid starting dangerous reactions the containers need to keep rotating at a very high speed. All of this requires energy, and creates a considerable amount of heat."
+	description "Long ago, when a captain could refuel only on a handful, distant systems, running out of fuel was a serious risk: in addition to ramscoops, large fuel centrifuges were installed in most ships. They are able to contain hyperspace fuel in a few pods, but in the process that makes it possible it also becomes less stable and to avoid starting dangerous reactions the containers need to keep rotating at a very high speed. All of this requires energy, and creates a considerable amount of heat."
