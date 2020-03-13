@@ -1463,7 +1463,7 @@ ship "Far Ek Tek 243"
 		"mass" 510
 		"automaton" 1
 		"drag" 8.2
-		"self destruct" 0.8
+		"self destruct" 0.6
 		"heat dissipation" .55
 		"fuel capacity" 600
 		"cargo space" 216
@@ -1683,3 +1683,66 @@ ship "Korath Raider" "Korath Raider (Mereti, Ember)"
 		"Korath Slicer Turret" 2
 		"Steering (Planetary Class)"
 		"Korath Repeater Rifle" 196
+
+ship "Korath Courier"
+	swizzle 0
+	sprite "ship/courier"
+	thumbnail "thumbnail/courier"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16940000
+		"shields" 13300
+		"hull" 20100
+		"automaton" 1
+		"mass" 520
+		"drag" 7.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 848
+		"outfit space" 498
+		"weapon capacity" 195
+		"engine capacity" 72
+		"self destruct" .5
+		"ramscoop" 3
+		weapon
+			"blast radius" 320
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Korath Banisher" 2
+		"Korath Warder"
+		"Korath Grab-Strike" 2
+		
+		"Double Plasma Core"
+		"Generator (Candle Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Small Heat Shunt"
+		"Fuel Processor"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Hyperdrive"
+	
+	engine -36.5 133
+	engine 36.5 133
+	turret 0 -126 "Korath Grab-Strike"
+	turret 0 -81 "Korath Banisher"
+	turret 0 -28.5 "Korath Warder"
+	turret 0 26.5 "Korath Grab-Strike"
+	turret 0 66.5 "Korath Banisher"
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "During the first stages of their civil war, the Korath developed this autonomous freighter as the backbone of their deliveries across their space. Today, hundreds of years after the end of the war that nearly brought their species to an extinction, most of the remaining Couriers are being used by the Korath Efret together with their World-Ships."
+
+fleet "Kor Efret Home"
+	add variant
+		"Korath Courier"
+	add variant
+		"Korath Courier"
+		"Korath World-Ship B"
