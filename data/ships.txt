@@ -1699,8 +1699,8 @@ ship "Korath Courier"
 		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 848
-		"outfit space" 498
-		"weapon capacity" 195
+		"outfit space" 519
+		"weapon capacity" 215
 		"engine capacity" 72
 		"self destruct" .5
 		"ramscoop" 3
@@ -1746,3 +1746,54 @@ fleet "Kor Efret Home"
 	add variant
 		"Korath Courier"
 		"Korath World-Ship B"
+	add variant 2
+		"Korath Shipper"
+	add variant
+		"Korath Shipper" 2
+	add variant
+		"Korath Shipper" 3
+	add variant
+		"Korath Shipper" 2
+		"Korath Courier"
+
+ship "Korath Shipper"
+	sprite "ship/shipper"
+	thumbnail "thumbnail/shipper"
+	attributes
+		category "Transport"
+		"cost" 320000
+		"shields" 4550
+		"hull" 3180
+		"required crew" 1
+		"bunks" 18
+		"mass" 205
+		"drag" 3.0
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 26
+		"outfit space" 253
+		"weapon capacity" 72
+		"engine capacity" 44
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Korath Banisher"
+		"Korath Warder"
+		"Systems Core (Small)"
+		"Large Heat Shunt"
+		"Plasma Core"
+		
+		"Steering (Comet Class)"
+		"Thruster (Comet Class)"
+		"Hyperdrive"
+		
+	turret 0 -38.5
+	turret 0 -7.5
+	engine -12.5 47
+	engine 12.5 47
+	explode "tiny explosion" 15
+	explode "small explosion" 7
+	description "The Shipper is a vessel of old design, used by the Korath mainly for exploration and to transport small groups of people. Only a small number of Shippers is still produced, and even fewer are being actively used as transport."
