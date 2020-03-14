@@ -1740,12 +1740,33 @@ ship "Korath Courier"
 	"final explode" "final explosion large"
 	description "During the first stages of their civil war, the Korath developed this autonomous freighter as the backbone of their deliveries across their space. Today, hundreds of years after the end of the war that nearly brought their species to an extinction, most of the remaining Couriers are being used by the Korath Efret together with their World-Ships."
 
+ship "Korath Courier" "Korath Courier (Empty)"
+	sprite "ship/courier empty"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16940000
+		"shields" 13300
+		"hull" 20100
+		"automaton" 1
+		"mass" 320
+		"drag" 4.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 24
+		"outfit space" 519
+		"weapon capacity" 215
+		"engine capacity" 72
+		"self destruct" .5
+		"ramscoop" 3
+
 fleet "Kor Efret Home"
 	add variant
 		"Korath Courier"
 	add variant
 		"Korath Courier"
 		"Korath World-Ship B"
+	add variant 2
+		"Korath Courier (Empty)"
 	add variant 2
 		"Korath Shipper"
 	add variant
