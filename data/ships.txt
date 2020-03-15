@@ -102,77 +102,7 @@ ship "Solifuge" "Solifuge (Ionic)"
 		`"Bondir" Atomic Thruster`
 		"Hyperdrive"
 
-fleet "Unfettered Raid"
-	add variant
-			"Shield Beetle (Jump, Ionic)" 3
-	add variant
-			"Shield Beetle (Jump, Ionic)" 2
-			"Shield Beetle (Jump, Tracker)" 1
-
-fleet "Unfettered Tribute"
-	add variant
-		variant
-			"Water Bug (Jump, Ionic)"
-
-fleet "Small Unfettered"
-	add variant
-			"Lightning Bug (Ionic)"
-	add variant 3
-			"Lightning Bug (Ionic)" 2
-
-fleet "Large Unfettered"
-	add variant 1
-			"Lightning Bug (Ionic)"
-			"Shield Beetle (Ionic)"
-	add variant 2
-			"Shield Beetle (Ionic)" 2
-	add variant 2
-			"Shield Beetle (Pulse)"
-			"Shield Beetle (Ionic)"
-	add variant 2
-			"Shield Beetle"
-			"Shield Beetle (Ionic)"
-	add variant 2
-			"Shield Beetle (Tracker)"
-			"Shield Beetle (Ionic)"
-	add variant 1
-			"Lightning Bug (Ionic)" 3
-			"Lightning Bug (Pulse)" 2
-	add variant 1
-			"Lightning Bug (Ionic)" 4
-			"Lightning Bug (Pulse)" 1
-	add variant
-			"Shield Beetle (Ionic)" 2
-			"Lightning Bug (Ionic)"
-	add variant
-			"Shield Beetle (Tracker)" 
-			"Lightning Bug (Ionic)" 3
-
 ship "Solifuge"
-	sprite "ship/hai solifuge"
-	thumbnail "thumbnail/hai solifuge"
-	attributes
-		category "Heavy Warship"
-		licenses
-			"Unfettered Militia"
-		"cost" 22800000
-		"shields" 37800
-		"hull" 11000
-		"required crew" 62
-		"bunks" 118
-		"mass" 925
-		"drag" 15.4
-		"heat dissipation" .42
-		"fuel capacity" 600
-		"cargo space" 142
-		"outfit space" 828
-		"weapon capacity" 342
-		"engine capacity" 166
-		weapon
-			"blast radius" 450
-			"shield damage" 4500
-			"hull damage" 2250
-			"hit force" 3500
 	outfits
 		"Hai Tracker Pod"
 		"Hai Tracker" 56
@@ -192,37 +122,6 @@ ship "Solifuge"
 		`"Bondir" Atomic Thruster`
 		"Hyperdrive"
 		"Protection Station" 3
-			
-	engine -28 135.5
-	engine 28 135.5
-	gun 0 -140 "Hai Tracker Pod"
-	gun -11.5 -138.5 "Ion Cannon"
-	gun 11.5 -138.5 "Ion Cannon"
-	gun -9.5 -101 "Ion Cannon"
-	gun 9.5 -101 "Ion Cannon"
-	turret 0 -109.5 "Chameleon Anti-Missile"
-	turret 54.5 -48.5 "Bullfrog Anti-Missile"
-	turret -54.5 -48.5 "Bullfrog Anti-Missile"
-	turret 55 1 "Pulse Turret"
-	turret -55 1 "Pulse Turret"
-	turret 54.5 50.5 "Bullfrog Anti-Missile"
-	turret -54.5 50.5 "Bullfrog Anti-Missile"
-	fighter -51.5 -71 under
-	fighter 51.5 -71 under
-	fighter -58.5 2 under
-	fighter 58.5 2 under
-	fighter -51.5 76 under
-	fighter 51.5 76 under
-	leak "leak" 40 50
-	leak "flame" 60 70
-	leak "big leak" 70 50
-	explode "tiny explosion" 50
-	explode "small explosion" 50
-	explode "medium explosion" 50
-	explode "large explosion" 50
-	explode "huge explosion" 20
-	"final explode" "final explosion large"
-	description `Impressed by the Alpha's "Giftbringer", the Unfettered endeavored to build their own fighter carrier to take more advantage of their supply of jump drives.`
 
 ship "Solifuge" "Solifuge (Jump)"
 	outfits
@@ -377,35 +276,6 @@ ship "Grasshopper" "Grasshopper (Afterburner)"
 		`"Benga" Atomic Steering`
 		Hyperdrive
 
-fleet "Small Hai"
-	add variant 2
-		"Lightning Bug (Afterburner)" 2
-	add variant 
-		"Lightning Bug (Afterburner)" 3
-	add variant 
-		"Lightning Bug (Afterburner)"
-		"Grasshopper" 2
-	add variant 
-		"Lightning Bug (Afterburner)"
-		"Grasshopper (Afterburner)"
-
-fleet "Large Hai"
-	add variant 2
-		"Centipede (Afterburner)"
-		"Lightning Bug (Afterburner)" 2
-	add variant 
-		"Centipede (Afterburner)" 2
-		"Lightning Bug (Afterburner)"
-	add variant
-		"Centipede (Afterburner)"
-		"Lightning Bug (Afterburner)" 2
-		"Grasshopper" 3
-	add variant
-		"Centipede (Afterburner)"
-		"Lightning Bug (Afterburner)" 2
-		"Grasshopper (Afterburner)" 
-		"Grasshopper"
-
 ship "Modified Shield Beetle"
 	sprite "ship/hai modified shield beetle"
 	thumbnail "thumbnail/hai shield beetle"
@@ -473,31 +343,9 @@ ship "Modified Shield Beetle"
 	explode "large explosion" 53
 	explode "huge explosion" 22
 	"final explode" "final explosion large"
-	description "This ship has been modified by the Unfettered Hai, after that they succesfully invaded Wanderer space. Their primary intention was to increase the weapon space to install more Ion Cannons, but since they were unable to do much they focused on the Solifuge development and, after it was completed, tried to increase the other attributes instead with good results at the cost of manuevrability and heat control."
+	description "This ship has been modified by the Unfettered Hai, after that they succesfully invaded Wanderer space. Their primary intention was to increase the weapon space to install more Ion Cannons, but since they were unable to do much they focused on the Solifuge development and, after it was completed, they tried to increase the other attributes instead with good results at the cost of manuevrability and heat control."
 
 ship "Aphid"
-	sprite "ship/hai aphid"
-	thumbnail "thumbnail/hai aphid"
-	attributes
-		category "Light Freighter"
-		"cost" 570000
-		"shields" 1700
-		"hull" 1400
-		"required crew" 1
-		"bunks" 5
-		"mass" 100
-		"drag" 1.9
-		"heat dissipation" .90
-		"fuel capacity" 400
-		"cargo space" 51
-		"outfit space" 185
-		"weapon capacity" 37
-		"engine capacity" 48
-		weapon
-			"blast radius" 30
-			"shield damage" 300
-			"hull damage" 150
-			"hit force" 450
 	outfits
 		"Pulse Turret"
 		"Pebble Core"
@@ -508,14 +356,6 @@ ship "Aphid"
 		`"Basrem" Atomic Steering`
 		"Hyperdrive"
 		"Protection Station" 2
-	engine -8 40
-	engine 8 40
-	turret 0 24 "Pulse Turret"
-	leak "leak" 60 50
-	explode "tiny explosion" 10
-	explode "small explosion" 20
-	explode "medium explosion" 15
-	description "The Aphid is the lightest freighter used by the Hai and was for many millennia the backbone of the Hai inter-planetary economy. Because of how peaceful Hai space has been for much of its history, Aphids are only lightly armed and mainly rely on larger Hai ships for protection."
 
 ship "Aphid" "Aphid (Anti-Missile)"
 	outfits
@@ -531,31 +371,7 @@ ship "Aphid" "Aphid (Anti-Missile)"
 		`"Benga" Atomic Steering`
 		"Hyperdrive"
 
-
-
 ship "Centipede"
-	sprite "ship/hai centipede"
-	thumbnail "thumbnail/hai centipede"
-	attributes
-		category "Transport"
-		"cost" 6300000
-		"shields" 6600
-		"hull" 2400
-		"required crew" 35
-		"bunks" 131
-		"mass" 168
-		"drag" 4
-		"heat dissipation" .75
-		"fuel capacity" 600
-		"cargo space" 38
-		"outfit space" 375
-		"weapon capacity" 78
-		"engine capacity" 88
-		weapon
-			"blast radius" 60
-			"shield damage" 600
-			"hull damage" 300
-			"hit force" 900
 	outfits
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
@@ -571,23 +387,6 @@ ship "Centipede"
 		`"Biroo" Atomic Steering`
 		`"Basrem" Atomic Steering`
 		Hyperdrive
-		
-	engine -15 113
-	engine 15 113
-	gun -11 -113 "Hai Tracker Pod"
-	gun 11 -113 "Hai Tracker Pod"
-	turret 0 -19 "Bullfrog Anti-Missile"
-	turret -41 67 "Bullfrog Anti-Missile"
-	turret 41 67 "Bullfrog Anti-Missile"
-	leak "leak" 60 50
-	leak "flame" 40 40
-	leak "big leak" 10 10
-	explode "tiny explosion" 10
-	explode "small explosion" 25
-	explode "medium explosion" 25
-	explode "large explosion" 10
-	"final explode" "final explosion medium"
-	description `The introduction of humans to the Hai civilization has led to a substantial amount of cultural exchange. While some may argue that pickled acorns have been the greatest product of this relationship, many more will point to this luxury transport ship. The product of human-Hai cooperation from the project's inception, the Centipede was released around the turn of the 31st century, but has already become quite popular among Hai fleets.`
 
 ship "Centipede" "Centipede (Pulse)"
 	outfits
@@ -610,28 +409,6 @@ ship "Centipede" "Centipede (Pulse)"
 
 
 ship "Geocoris"
-	sprite "ship/hai geocoris"
-	thumbnail "thumbnail/hai geocoris"
-	attributes
-		category "Heavy Freighter"
-		"cost" 12540000
-		"shields" 13300
-		"hull" 6200
-		"required crew" 15
-		"bunks" 56
-		"mass" 810
-		"drag" 17.1
-		"heat dissipation" 0.45
-		"fuel capacity" 800
-		"cargo space" 761
-		"outfit space" 582
-		"weapon capacity" 172
-		"engine capacity" 94
-		weapon
-			"blast radius" 300
-			"shield damage" 3000
-			"hull damage" 1500
-			"hit force" 4500
 	outfits
 		"Pulse Cannon" 2
 		"Pulse Turret" 2
@@ -644,26 +421,6 @@ ship "Geocoris"
 		`"Biroo" Atomic Thruster`
 		`"Bondir" Atomic Steering`
 		Hyperdrive
-
-	engine 100 39
-	engine -100 39
-	gun 24 -118 "Pulse Cannon"
-	gun -24 -118 "Pulse Cannon"
-	turret 110 -23 "Pulse Turret"
-	turret -110 -23 "Pulse Turret"
-	turret 35 94 "Bullfrog Anti-Missile"
-	turret -35 94 "Bullfrog Anti-Missile"
-	turret 0 -89 "Bullfrog Anti-Missile"
-	leak "leak" 40 50
-	leak "flame" 40 80
-	leak "big leak" 70 30
-	explode "tiny explosion" 50
-	explode "small explosion" 50
-	explode "medium explosion" 50
-	explode "large explosion" 50
-	explode "huge explosion" 20
-	"final explode" "final explosion large"
-	description "After large human freighters began to out-compete traditionally smaller Hai ships, the Hai responded by developing the Geocoris: a heavy freighter that surpassed anything humanity had to offer at the time."
 
 ship "Geocoris" "Geocoris (Tracker)"
 	outfits
@@ -705,28 +462,6 @@ ship "Grasshopper" "Grasshopper (Tracker)"
 
 
 ship "Lightning Bug"
-	sprite "ship/hai lightning bug"
-	thumbnail "thumbnail/hai lightning bug"
-	attributes
-		category "Light Warship"
-		"cost" 3200000
-		"shields" 6700
-		"hull" 1700
-		"required crew" 4
-		"bunks" 10
-		"mass" 220
-		"drag" 3.8
-		"heat dissipation" .85
-		"fuel capacity" 600
-		"cargo space" 73
-		"outfit space" 278
-		"weapon capacity" 87
-		"engine capacity" 93
-		weapon
-			"blast radius" 84
-			"shield damage" 840
-			"hull damage" 420
-			"hit force" 1260
 	outfits
 		"Ion Cannon"
 		"Bullfrog Anti-Missile" 2
@@ -739,19 +474,6 @@ ship "Lightning Bug"
 		`"Benga" Atomic Thruster`
 		`"Biroo" Atomic Steering`
 		"Hyperdrive"
-	engine -40 22
-	engine 40 22
-	gun 0 -40 "Ion Cannon"
-	turret -47 18 "Bullfrog Anti-Missile"
-	turret 47 18 "Bullfrog Anti-Missile"
-	leak "leak" 40 50
-	leak "flame" 40 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion small"
-	description "The Lightning Bug is a small defensive ship, mostly used by the Hai as a convoy escort. The Lightning Bug, as with many insects, works best in a swarm: even a small number of Lightning Bugs can manage to leave the largest of ships helpless with their stock-fitted ion cannons."
 
 ship "Lightning Bug" "Lightning Bug (Pulse)"
 	outfits
@@ -770,28 +492,6 @@ ship "Lightning Bug" "Lightning Bug (Pulse)"
 
 
 ship "Shield Beetle"
-	sprite "ship/hai shield beetle"
-	thumbnail "thumbnail/hai shield beetle"
-	attributes
-		category "Heavy Warship"
-		"cost" 17900000
-		"shields" 32000
-		"hull" 9800
-		"required crew" 47
-		"bunks" 95
-		"mass" 650
-		"drag" 8.8
-		"heat dissipation" .60
-		"fuel capacity" 500
-		"cargo space" 142
-		"outfit space" 798
-		"weapon capacity" 333
-		"engine capacity" 150
-		weapon
-			"blast radius" 400
-			"shield damage" 4000
-			"hull damage" 2000
-			"hit force" 3000
 	outfits
 		"Ion Cannon" 4
 		"Hai Tracker Pod" 4
@@ -809,30 +509,6 @@ ship "Shield Beetle"
 		`"Bondir" Atomic Thruster`
 		`"Bufaer" Atomic Steering`
 		"Hyperdrive"
-	engine -44 133
-	engine 44 133
-	gun -22 -102 "Ion Cannon"
-	gun 22 -102 "Ion Cannon"
-	gun -34 -68 "Hai Tracker Pod"
-	gun 34 -68 "Hai Tracker Pod"
-	gun -49 -38 "Ion Cannon"
-	gun 49 -38 "Ion Cannon"
-	gun -61 -14 "Hai Tracker Pod"
-	gun 61 -14 "Hai Tracker Pod"
-	turret -39 48
-	turret 39 48
-	turret -57 75 "Chameleon Anti-Missile"
-	turret 57 75 "Chameleon Anti-Missile"
-	leak "leak" 40 50
-	leak "flame" 50 80
-	leak "big leak" 60 50
-	explode "tiny explosion" 50
-	explode "small explosion" 50
-	explode "medium explosion" 50
-	explode "large explosion" 50
-	explode "huge explosion" 20
-	"final explode" "final explosion large"
-	description "This ship was first built millennia ago, near the end of a more violent time in Hai history. Since then, it has served as the only heavy warship at the disposal of the Hai. The Shield Beetle is a versatile warship used by the Hai to guard their merchant convoys, or by the Unfettered to attack those very same convoys."
 
 ship "Shield Beetle" "Shield Beetle (Jump)"
 	outfits
@@ -889,26 +565,6 @@ ship "Shield Beetle" "Shield Beetle (Tracker)"
 
 
 ship "Violin Spider"
-	sprite "ship/hai violin spider"
-	thumbnail "thumbnail/hai violin spider"
-	attributes
-		category "Fighter"
-		"cost" 139000
-		"shields" 1400
-		"hull" 600
-		"required crew" 1
-		"bunks" 1
-		"mass" 31
-		"drag" 0.9
-		"heat dissipation" .7
-		"outfit space" 92
-		"weapon capacity" 19
-		"engine capacity" 30
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
 	outfits
 		"Hai Tracker Pod"
 		"Hai Tracker" 56
@@ -919,15 +575,6 @@ ship "Violin Spider"
 		"Protection Station"
 		`"Basrem" Atomic Steering`
 		`"Basrem" Atomic Thruster`
-
-	engine -15 30
-	engine 15 30
-	gun 0 -31 "Hai Tracker Pod"
-	turret 0 5
-	leak "leak" 60 50
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description `The Hai fighter is equipped with what most humans would consider the greatest technology available, but all of that high tech comes at a cost.`
 
 ship "Violin Spider" "Violin Spider (Pulse)"
 	outfits
@@ -944,28 +591,6 @@ ship "Violin Spider" "Violin Spider (Pulse)"
 
 
 ship "Water Bug"
-	sprite "ship/hai water bug"
-	thumbnail "thumbnail/hai water bug"
-	attributes
-		category "Heavy Freighter"
-		"cost" 6500000
-		"shields" 7900
-		"hull" 4500
-		"required crew" 5
-		"bunks" 29
-		"mass" 270
-		"drag" 5.9
-		"heat dissipation" .75
-		"fuel capacity" 600
-		"cargo space" 197
-		"outfit space" 368
-		"weapon capacity" 145
-		"engine capacity" 64
-		weapon
-			"blast radius" 124
-			"shield damage" 1240
-			"hull damage" 620
-			"hit force" 1860
 	outfits
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 168
@@ -982,22 +607,6 @@ ship "Water Bug"
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
 		"Hyperdrive"
-	engine -50 33
-	engine 50 33
-	gun -24 -53 "Hai Tracker Pod"
-	gun 24 -53 "Hai Tracker Pod"
-	turret 0 -10 "Pulse Turret"
-	turret -17 17 "Chameleon Anti-Missile"
-	turret 17 17 "Chameleon Anti-Missile"
-	leak "leak" 60 50
-	leak "flame" 40 50
-	leak "big leak" 40 30
-	explode "small explosion" 15
-	explode "medium explosion" 30
-	explode "large explosion" 20
-	explode "huge explosion" 5
-	"final explode" "final explosion medium"
-	description "The design of the Water Bug is almost as old as the Aphid, but until recently it never saw much use. A spike in aggression from the Unfettered Hai has led the tougher and more well-defended Water Bug to see an increase in popularity over its little brother, the Aphid. The Water Bug is now the most widely used Hai freighter, comprising the bulk of all Hai merchant fleets."
 
 ship "Water Bug" "Water Bug (Jump)"
 	outfits
@@ -1108,30 +717,6 @@ fleet "Large Northern Pirates"
 		"Leviathan (Radiothermal)"
 
 ship "Hurricane"
-	sprite "ship/hurricane"
-	thumbnail "thumbnail/hurricane"
-	attributes
-		category "Heavy Warship"
-		licenses
-			"Wanderer Military"
-		"cost" 39100000
-		"shields" 72400
-		"hull" 46500
-		"required crew" 76
-		"bunks" 117
-		"mass" 770
-		"drag" 11.9
-		"heat dissipation" 0.55
-		"fuel capacity" 500
-		"cargo space" 98
-		"outfit space" 960
-		"weapon capacity" 428
-		"engine capacity" 140
-		weapon
-			"blast radius" 400
-			"shield damage" 4000
-			"hull damage" 2000
-			"hit force" 6000
 	outfits
 		"Sunbeam" 5
 		"Dual Sunbeam Turret" 2
@@ -1149,26 +734,6 @@ ship "Hurricane"
 		"Type 4 Radiant Thruster"
 		"Type 4 Radiant Steering"
 		"Hyperdrive"
-		
-	engine -23 181
-	engine 23 181
-	gun -68 5
-	gun 68 5
-	gun -85 21
-	gun 85 21
-	gun -62 32
-	gun 62 32
-	turret -27 -80 "Dual Sunbeam Turret"
-	turret 27 -80 "Dual Sunbeam Turret"
-	turret 0 -33
-	turret -39 140 "Wanderer Heavy Anti-Missile"
-	turret 39 140 "Wanderer Anti-Missile"
-	explode "small explosion" 20
-	explode "medium explosion" 80
-	explode "large explosion" 70
-	explode "huge explosion" 30
-	"final explode" "final explosion large" 1
-	description "The Hurricane is not built for speed, elegance, or versatility, but for one simple purpose: to be durable enough to serve as a rearguard, absorbing an enemy's attacks for long enough to allow the fleet it is guarding to escape."
 
 ship "Hurricane" "Hurricane (Turret)"
 	outfits
@@ -1287,7 +852,7 @@ ship "Swan"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large" 1
-	description "Compared to the other freighter used by the Remnant the Swan is an old, and outdated, design: developed at the same time as the agile Starling, but without any integrated cloaking technology. Its main purpose is hauling large quantities of goods between planets, where, if needed, it can land to repair the hull or use its firepower to join the defense fleets."
+	description "Compared to the other freighter used by the Remnant the Swan is an old and outdated design: developed at the same time as the agile Starling, but without any integrated cloaking technology. Its main purpose is hauling large quantities of goods between planets, where, if needed, it can land to repair the hull or use its firepower to join the defense fleets."
 
 ship "Swan" "Swan (Sniper)"
 	outfits
@@ -1322,33 +887,6 @@ ship "Swan" "Swan (Cargo)"
 		"Forge-Class Thruster"
 		"Smelter-Class Steering"
 		"Hyperdrive"
-
-
-fleet "Remnant Transport"
-	add variant 10
-		"Swan"
-	add variant 5
-		"Swan (Sniper)"
-	add variant 5
-		"Swan (Cargo)"
-	add variant 4
-		"Swan (Cargo)"
-		"Gull (Cargo)" 
-		"Albatross (Heavy)"
-	add variant 5
-		"Swan (Cargo)" 2
-		"Albatross (Heavy)"
-	add variant 4
-		"Swan (Cargo)"
-		"Gull (Cargo)" 
-		"Albatross (Heavy)"
-	add variant 1
-		"Swan (Sniper)" 2
-		"Starling (Sniper)"
-		"Albatross (Sniper)"
-	add variant 4
-		"Starling (Thrasher)"
-		"Swan"
 
 ship "Robin"
 	sprite "ship/robin"
@@ -1581,39 +1119,6 @@ ship "Far Ek Tek 243" "Far Ek Tek 243 (Ember, Mereti)"
 		"Systems Core (Small)"
 		"Fuel Processor"
 
-mission "New Exile Drones"
-	landing
-	to offer
-		has "Wanderers: Sestor: Final: done"
-	on offer
-		event "exiles new drones" 10
-
-event "exiles new drones"
-	fleet "Korath Raid"
-		add variant 2
-			"Far Ek Tek 243"
-		add variant 2
-			"Far Ek Tek 243 (Mereti)"
-		add variant 
-			"Far Ek Tek 243 (Missile)"
-		add variant 2
-			"Korath Raider (Sestor)"
-			"Far Osk 27" 2
-		add variant
-			"Korath Raider (Mereti)"
-			"Far Osk 27" 2
-	fleet "Korath Ember Waste Raid"
-		add variant 2
-			"Far Ek Tek 243 (Ember)"
-		add variant 2
-			"Korath Raider (Sestor, Ember)"
-			"Far Osk 27" 2
-		add variant
-			"Korath Raider (Mereti, Ember)"
-			"Far Osk 27" 2
-		add variant 
-			"Far Ek Tek 243 (Ember, Mereti)"
-
 ship "Korath Raider" "Korath Raider (Sestor)"
 	outfits
 		"Outfits Expansion"
@@ -1759,24 +1264,6 @@ ship "Korath Courier" "Korath Courier (Empty)"
 		"self destruct" .5
 		"ramscoop" 3
 
-fleet "Kor Efret Home"
-	add variant
-		"Korath Courier"
-	add variant
-		"Korath Courier"
-		"Korath World-Ship B"
-	add variant 2
-		"Korath Courier (Empty)"
-	add variant 2
-		"Korath Shipper"
-	add variant
-		"Korath Shipper" 2
-	add variant
-		"Korath Shipper" 3
-	add variant
-		"Korath Shipper" 2
-		"Korath Courier"
-
 ship "Korath Shipper"
 	sprite "ship/shipper"
 	thumbnail "thumbnail/shipper"
@@ -1818,3 +1305,60 @@ ship "Korath Shipper"
 	explode "tiny explosion" 15
 	explode "small explosion" 7
 	description "The Shipper is a vessel of old design, used by the Korath mainly for exploration and to transport small groups of people. Only a small number of Shippers is still produced, and even fewer are being actively used as transport."
+
+ship "Sea Scorpion"
+	sprite "ship/hai sea scorpion"
+	thumbnail "thumbnail/hai sea scorpion"
+	attributes
+		category "Medium Warship"
+		"cost" 2950000
+		"shields" 10700
+		"hull" 4100
+		"required crew" 15
+		"bunks" 31
+		"mass" 340
+		"drag" 4.7
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 31
+		"outfit space" 523
+		"weapon capacity" 158
+		"engine capacity" 104
+		weapon
+			"blast radius" 84
+			"shield damage" 840
+			"hull damage" 420
+			"hit force" 1260
+	outfits
+		"Hai Tracker Pod" 5
+		"Chameleon Anti-Missile" 2
+		"Tracker Storage Pod" 5
+		"Hai Tracker" 420
+		"Hai Zephyr Cooling"
+		"Boulder Reactor"
+		"Hai Ravine Batteries"
+		"Hai Diamond Regenerator"
+		`"Bondir" Atomic Thruster`
+		`"Biroo" Atomic Steering`
+		"Hyperdrive"
+		"Protection Station" 6
+
+	turret -17.5 -14.5
+	turret 17.5 -14.5
+	gun -23 -48.5
+	gun 23 -48.5
+	gun -13 -60.5
+	gun 13 -60.5
+	gun 0 -71
+	engine -34.5 60.5 0.6
+	engine 34.5 60.5 0.6
+	engine -15 70 0.8
+	engine 15 70 0.8
+	leak "leak" 40 50
+	leak "flame" 40 30
+	explode "tiny explosion" 24
+	explode "small explosion" 50
+	explode "medium explosion" 30
+	explode "large explosion" 14
+	"final explode" "final explosion medium"
+	description "Most of the ships the Unfettered had back when they splitted from the rest of the Hai weren't usable as missile boats, and for a while they had to rely heavily on pulse weapons instead. Only after some decades of hard work they were able to take the Sea Scorpion into mass production, but it was worth it: its low price and high number of gun ports make it perfect for its role, at the cost of a weak hull and shielding."
