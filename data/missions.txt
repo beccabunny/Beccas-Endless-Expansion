@@ -528,3 +528,37 @@ mission "FW Escort 3 New"
 	
 	on visit
 		dialog `Tomek Voigt messages you and says, "Please escort the <npc> back here as soon as possible! Their crew is counting on you."`
+
+mission "New Exile Drones"
+	landing
+	to offer
+		has "Wanderers: Sestor: Final: done"
+	on offer
+		event "exiles new drones" 10
+
+event "exiles new drones"
+	fleet "Korath Raid"
+		add variant 2
+			"Far Ek Tek 243"
+		add variant 2
+			"Far Ek Tek 243 (Mereti)"
+		add variant 
+			"Far Ek Tek 243 (Missile)"
+		add variant 2
+			"Korath Raider (Sestor)"
+			"Far Osk 27" 2
+		add variant
+			"Korath Raider (Mereti)"
+			"Far Osk 27" 2
+	fleet "Korath Ember Waste Raid"
+		add variant 2
+			"Far Ek Tek 243 (Ember)"
+		add variant 2
+			"Korath Raider (Sestor, Ember)"
+			"Far Osk 27" 2
+		add variant
+			"Korath Raider (Mereti, Ember)"
+			"Far Osk 27" 2
+		add variant 
+			"Far Ek Tek 243 (Ember, Mereti)"
+
