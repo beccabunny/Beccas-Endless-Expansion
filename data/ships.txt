@@ -347,19 +347,18 @@ ship "Modified Shield Beetle"
 
 ship "Aphid"
 	outfits
-		"Pulse Turret"
-		"Pebble Core"
+		"Chameleon Anti-Missile"
+		"Sand Cell" 2
 		"Hai Fissure Batteries"
 		"Hai Corundum Regenerator"
-		"Hai Williwaw Cooling"
 		`"Basrem" Atomic Thruster`
 		`"Basrem" Atomic Steering`
 		"Hyperdrive"
 		"Protection Station" 2
 
-ship "Aphid" "Aphid (Anti-Missile)"
+ship "Aphid" "Aphid (Armed)"
 	outfits
-		"Chameleon Anti-Missile"
+		"Pulse Turret"
 		"Pebble Core"
 		"Hai Fissure Batteries"
 		"Hai Corundum Regenerator"
